@@ -1,0 +1,14 @@
+C:\Users\User\Desktop\Final-Project\YouPlay\YouPlay.Core\bin\Debug\net8.0\YouPlay.Core.deps.json
+C:\Users\User\Desktop\Final-Project\YouPlay\YouPlay.Core\bin\Debug\net8.0\YouPlay.Core.runtimeconfig.json
+C:\Users\User\Desktop\Final-Project\YouPlay\YouPlay.Core\bin\Debug\net8.0\YouPlay.Core.dll
+C:\Users\User\Desktop\Final-Project\YouPlay\YouPlay.Core\bin\Debug\net8.0\YouPlay.Core.pdb
+C:\Users\User\Desktop\Final-Project\YouPlay\YouPlay.Core\obj\Debug\net8.0\YouPlay.Core.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Final-Project\YouPlay\YouPlay.Core\obj\Debug\net8.0\YouPlay.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Final-Project\YouPlay\YouPlay.Core\obj\Debug\net8.0\YouPlay.Core.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Final-Project\YouPlay\YouPlay.Core\obj\Debug\net8.0\YouPlay.Core.AssemblyInfo.cs
+C:\Users\User\Desktop\Final-Project\YouPlay\YouPlay.Core\obj\Debug\net8.0\YouPlay.Core.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Final-Project\YouPlay\YouPlay.Core\obj\Debug\net8.0\YouPlay.Core.dll
+C:\Users\User\Desktop\Final-Project\YouPlay\YouPlay.Core\obj\Debug\net8.0\refint\YouPlay.Core.dll
+C:\Users\User\Desktop\Final-Project\YouPlay\YouPlay.Core\obj\Debug\net8.0\YouPlay.Core.pdb
+C:\Users\User\Desktop\Final-Project\YouPlay\YouPlay.Core\obj\Debug\net8.0\YouPlay.Core.genruntimeconfig.cache
+C:\Users\User\Desktop\Final-Project\YouPlay\YouPlay.Core\obj\Debug\net8.0\ref\YouPlay.Core.dll

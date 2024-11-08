@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.API\\wwwroot\\Uploads\\219f0fc3-3d0f-4856-b22a-b2dabe6fd75aproduct-details-1.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\219f0fc3-3d0f-4856-b22a-b2dabe6fd75aproduct-details-1.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.YouPlay.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.YouPlay.API.props",
+      "PackagePath": "build\\YouPlay.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.YouPlay.API.props",
+      "PackagePath": "buildMultiTargeting\\YouPlay.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.YouPlay.API.props",
+      "PackagePath": "buildTransitive\\YouPlay.API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "wdY6lZ7FPgxl1mA5C9rauyrv9lCJ4vE+poYDbkjw59Y=",
+  "Source": "YouPlay.API",
+  "BasePath": "_content/YouPlay.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "YouPlay.API\\wwwroot",
+      "Source": "YouPlay.API",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.API\\wwwroot\\",
+      "BasePath": "_content/YouPlay.API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

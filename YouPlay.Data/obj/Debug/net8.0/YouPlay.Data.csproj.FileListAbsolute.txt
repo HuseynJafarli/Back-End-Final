@@ -1,0 +1,17 @@
+C:\Users\User\Desktop\Final-Project\YouPlay\YouPlay.Data\bin\Debug\net8.0\YouPlay.Data.deps.json
+C:\Users\User\Desktop\Final-Project\YouPlay\YouPlay.Data\bin\Debug\net8.0\YouPlay.Data.runtimeconfig.json
+C:\Users\User\Desktop\Final-Project\YouPlay\YouPlay.Data\bin\Debug\net8.0\YouPlay.Data.dll
+C:\Users\User\Desktop\Final-Project\YouPlay\YouPlay.Data\bin\Debug\net8.0\YouPlay.Data.pdb
+C:\Users\User\Desktop\Final-Project\YouPlay\YouPlay.Data\bin\Debug\net8.0\YouPlay.Core.dll
+C:\Users\User\Desktop\Final-Project\YouPlay\YouPlay.Data\bin\Debug\net8.0\YouPlay.Core.pdb
+C:\Users\User\Desktop\Final-Project\YouPlay\YouPlay.Data\obj\Debug\net8.0\YouPlay.Data.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Final-Project\YouPlay\YouPlay.Data\obj\Debug\net8.0\YouPlay.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Final-Project\YouPlay\YouPlay.Data\obj\Debug\net8.0\YouPlay.Data.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Final-Project\YouPlay\YouPlay.Data\obj\Debug\net8.0\YouPlay.Data.AssemblyInfo.cs
+C:\Users\User\Desktop\Final-Project\YouPlay\YouPlay.Data\obj\Debug\net8.0\YouPlay.Data.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Final-Project\YouPlay\YouPlay.Data\obj\Debug\net8.0\YouPlay..5558B876.Up2Date
+C:\Users\User\Desktop\Final-Project\YouPlay\YouPlay.Data\obj\Debug\net8.0\YouPlay.Data.dll
+C:\Users\User\Desktop\Final-Project\YouPlay\YouPlay.Data\obj\Debug\net8.0\refint\YouPlay.Data.dll
+C:\Users\User\Desktop\Final-Project\YouPlay\YouPlay.Data\obj\Debug\net8.0\YouPlay.Data.pdb
+C:\Users\User\Desktop\Final-Project\YouPlay\YouPlay.Data\obj\Debug\net8.0\YouPlay.Data.genruntimeconfig.cache
+C:\Users\User\Desktop\Final-Project\YouPlay\YouPlay.Data\obj\Debug\net8.0\ref\YouPlay.Data.dll

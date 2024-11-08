@@ -1,0 +1,6 @@
+@YouPlay.API_HostAddress = http://localhost:5002
+
+GET {{YouPlay.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
