@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("YouPlay.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a785ecd832fb2f0985cf067880004606a02ea0b4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+618b75907105aa5102b7d3b25c8f81b353f95ef4")]
 [assembly: System.Reflection.AssemblyProductAttribute("YouPlay.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("YouPlay.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

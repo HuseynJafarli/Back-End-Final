@@ -49,7 +49,6 @@ namespace YouPlay.Business.Services.Implementations
                 ModifiedDate = DateTime.Now
             }).ToList();
 
-            // Create new purchase entity
             var purchase = new Purchase
             {
                 Fullname = dto.Fullname,
@@ -67,11 +66,9 @@ namespace YouPlay.Business.Services.Implementations
                 ModifiedDate = DateTime.Now
             };
 
-            // Save the purchase entity to the database
             await purchaseRepository.CreateAsync(purchase);
             await purchaseRepository.CommitAsync();
 
-            // Convert the created purchase entity to DTO
             var purchaseDto = new PurchaseGetDto
             (
                 Id: purchase.Id,
@@ -86,12 +83,9 @@ namespace YouPlay.Business.Services.Implementations
                 UserId: purchase.UserId,
                 TotalPrice: purchase.TotalPrice,
                 PurchaseItems: purchase.PurchaseItems.Select(item => new PurchaseItemGetDto(
-                    Id: item.Id,
                     PurchaseId: item.PurchaseId,
                     GameId: item.GameId,
-                    CreatedDate: item.CreatedDate,
-                    ModifiedDate: item.ModifiedDate,
-                    IsDeleted: item.IsDeleted
+                    CreatedDate: item.CreatedDate
                 )).ToList(),
                 CreatedDate: purchase.CreatedDate,
                 ModifiedDate: purchase.ModifiedDate,
@@ -100,110 +94,101 @@ namespace YouPlay.Business.Services.Implementations
 
             return purchaseDto;
         }
-        public async Task DeleteAsync(int id)
-        {
-            if (id < 1) throw new InvalidIdException("Invalid Purchase Id.");
+        //public async Task DeleteAsync(int id)
+        //{
+        //    if (id < 1) throw new InvalidIdException("Invalid Purchase Id.");
 
-            var purchase = await purchaseRepository.GetByExpression(true, p => p.Id == id, "PurchaseItems").FirstOrDefaultAsync();
-            if (purchase == null) throw new EntityNotFoundException("Purchase not found!");
+        //    var purchase = await purchaseRepository.GetByExpression(true, p => p.Id == id, "PurchaseItems").FirstOrDefaultAsync();
+        //    if (purchase == null) throw new EntityNotFoundException("Purchase not found!");
 
-            // Delete all associated purchase items
-            foreach (var item in purchase.PurchaseItems.ToList())
-            {
-                purchaseRepository.Delete(item);
-            }
+        //    // Delete all associated purchase items
+        //    foreach (var item in purchase.PurchaseItems.ToList())
+        //    {
+        //        purchaseRepository.Delete(item);
+        //    }
 
-            // Delete the purchase
-            purchaseRepository.Delete(purchase);
-            await purchaseRepository.CommitAsync();
-        }
+        //    // Delete the purchase
+        //    purchaseRepository.Delete(purchase);
+        //    await purchaseRepository.CommitAsync();
+        //}
 
-        public async Task<ICollection<PurchaseGetDto>> GetByExpressionAsync(bool AsNoTracking = false, Expression<Func<Purchase, bool>>? expression = null, params string[] includes)
-        {
-            var purchases = await purchaseRepository.GetByExpression(AsNoTracking, expression, includes).ToListAsync();
-            if (purchases == null || !purchases.Any()) throw new EntityNotFoundException("No purchases found.");
+        //public async Task<ICollection<PurchaseGetDto>> GetByExpressionAsync(bool AsNoTracking = false, Expression<Func<Purchase, bool>>? expression = null, params string[] includes)
+        //{
+        //    var purchases = await purchaseRepository.GetByExpression(AsNoTracking, expression, includes).ToListAsync();
+        //    if (purchases == null || !purchases.Any()) throw new EntityNotFoundException("No purchases found.");
 
-            // Map to DTOs
-            return purchases.Select(purchase => new PurchaseGetDto(
-                Id: purchase.Id,
-                Fullname: purchase.Fullname,
-                Country: purchase.Country,
-                City: purchase.City,
-                EmailAddress: purchase.EmailAddress,
-                Phone: purchase.Phone,
-                Address: purchase.Address,
-                ZipCode: purchase.ZipCode,
-                Note: purchase.Note,
-                UserId: purchase.UserId,
-                TotalPrice: purchase.TotalPrice,
-                PurchaseItems: purchase.PurchaseItems.Select(item => new PurchaseItemGetDto(
-                    Id: item.Id,
-                    PurchaseId: item.PurchaseId,
-                    GameId: item.GameId,
-                    CreatedDate: item.CreatedDate,
-                    ModifiedDate: item.ModifiedDate,
-                    IsDeleted: item.IsDeleted
-                )).ToList(),
-                CreatedDate: purchase.CreatedDate,
-                ModifiedDate: purchase.ModifiedDate,
-                IsDeleted: purchase.IsDeleted
-            )).ToList();
-        }
+        //    // Map to DTOs
+        //    return purchases.Select(purchase => new PurchaseGetDto(
+        //        Id: purchase.Id,
+        //        Fullname: purchase.Fullname,
+        //        Country: purchase.Country,
+        //        City: purchase.City,
+        //        EmailAddress: purchase.EmailAddress,
+        //        Phone: purchase.Phone,
+        //        Address: purchase.Address,
+        //        ZipCode: purchase.ZipCode,
+        //        Note: purchase.Note,
+        //        UserId: purchase.UserId,
+        //        TotalPrice: purchase.TotalPrice,
+        //        PurchaseItems: purchase.PurchaseItems.Select(item => new PurchaseItemGetDto(
+        //            Id: item.Id,
+        //            PurchaseId: item.PurchaseId,
+        //            GameId: item.GameId,
+        //            CreatedDate: item.CreatedDate,
+        //            ModifiedDate: item.ModifiedDate,
+        //            IsDeleted: item.IsDeleted
+        //        )).ToList(),
+        //        CreatedDate: purchase.CreatedDate,
+        //        ModifiedDate: purchase.ModifiedDate,
+        //        IsDeleted: purchase.IsDeleted
+        //    )).ToList();
+        //}
 
-        public async Task<PurchaseGetDto> GetByIdAsync(int id)
-        {
-            if (id < 1) throw new InvalidIdException("Invalid Purchase Id.");
+        //public async Task<PurchaseGetDto> GetByIdAsync(int id)
+        //{
+        //    if (id < 1) throw new InvalidIdException("Invalid Purchase Id.");
 
-            var purchase = await purchaseRepository.GetByExpression(true, p => p.Id == id, "PurchaseItems").FirstOrDefaultAsync();
-            if (purchase == null) throw new EntityNotFoundException("Purchase not found!");
+        //    var purchase = await purchaseRepository.GetByExpression(true, p => p.Id == id, "PurchaseItems").FirstOrDefaultAsync();
+        //    if (purchase == null) throw new EntityNotFoundException("Purchase not found!");
 
-            // Map to DTO
-            var purchaseDto = new PurchaseGetDto(
-               Id: purchase.Id,
-                Fullname: purchase.Fullname,
-                Country: purchase.Country,
-                City: purchase.City,
-                EmailAddress: purchase.EmailAddress,
-                Phone: purchase.Phone,
-                Address: purchase.Address,
-                ZipCode: purchase.ZipCode,
-                Note: purchase.Note,
-                UserId: purchase.UserId,
-                TotalPrice: purchase.TotalPrice,
-                PurchaseItems: purchase.PurchaseItems.Select(item => new PurchaseItemGetDto(
-                    Id: item.Id,
-                    PurchaseId: item.PurchaseId,
-                    GameId: item.GameId,
-                    CreatedDate: item.CreatedDate,
-                    ModifiedDate: item.ModifiedDate,
-                    IsDeleted: item.IsDeleted
-                )).ToList(),
-                CreatedDate: purchase.CreatedDate,
-                ModifiedDate: purchase.ModifiedDate,
-                IsDeleted: purchase.IsDeleted
-            );
+        //    // Map to DTO
+        //    var purchaseDto = new PurchaseGetDto(
+        //       Id: purchase.Id,
+        //        Fullname: purchase.Fullname,
+        //        Country: purchase.Country,
+        //        City: purchase.City,
+        //        EmailAddress: purchase.EmailAddress,
+        //        Phone: purchase.Phone,
+        //        Address: purchase.Address,
+        //        ZipCode: purchase.ZipCode,
+        //        Note: purchase.Note,
+        //        UserId: purchase.UserId,
+        //        TotalPrice: purchase.TotalPrice,
+        //        PurchaseItems: purchase.PurchaseItems.Select(item => new PurchaseItemGetDto(
+        //            Id: item.Id,
+        //            PurchaseId: item.PurchaseId,
+        //            GameId: item.GameId,
+        //            CreatedDate: item.CreatedDate,
+        //            ModifiedDate: item.ModifiedDate,
+        //            IsDeleted: item.IsDeleted
+        //        )).ToList(),
+        //        CreatedDate: purchase.CreatedDate,
+        //        ModifiedDate: purchase.ModifiedDate,
+        //        IsDeleted: purchase.IsDeleted
+        //    );
 
-            return purchaseDto;
-        }
+        //    return purchaseDto;
+        //}
 
-        public Task<PurchaseGetDto> GetOneByExpressionAsync(bool AsNoTracking = false, Expression<Func<Purchase, bool>>? expression = null, params string[] includes)
-        {
-            throw new NotImplementedException();
-        }
+        //public Task<PurchaseGetDto> GetOneByExpressionAsync(bool AsNoTracking = false, Expression<Func<Purchase, bool>>? expression = null, params string[] includes)
+        //{
+        //    throw new NotImplementedException();
+        //}
 
-        public Task UpdateAsync(int id, PurchaseUpdateDto dto)
-        {
-            throw new NotImplementedException();
-        }
+        //public Task UpdateAsync(int id, PurchaseUpdateDto dto)
+        //{
+        //    throw new NotImplementedException();
+        //}
 
-        public Task<ICollection<PurchaseGetDto>> GetByExpressionAsync()
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task<ICollection<PurchaseGetDto>> GetByExpessionAsync(bool AsNoTracking = false, Expression<Func<Purchase, bool>>? expression = null, params string[] includes)
-        {
-            throw new NotImplementedException();
-        }
     }
 }

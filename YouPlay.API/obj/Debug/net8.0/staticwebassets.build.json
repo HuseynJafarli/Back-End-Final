@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "wdY6lZ7FPgxl1mA5C9rauyrv9lCJ4vE+poYDbkjw59Y=",
+  "Hash": "yuNfO/Y9XGCH0xHzOiGg1cuhIOlc6RPqppO0ozwNYko=",
   "Source": "YouPlay.API",
   "BasePath": "_content/YouPlay.API",
   "Mode": "Default",
@@ -15,5 +15,44 @@
       "Pattern": "**"
     }
   ],
-  "Assets": []
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.API\\wwwroot\\Uploads\\85c61d71-8815-42c7-9ed9-70a4cd7b72b9product-2.jpg",
+      "SourceId": "YouPlay.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.API\\wwwroot\\",
+      "BasePath": "_content/YouPlay.API",
+      "RelativePath": "Uploads/85c61d71-8815-42c7-9ed9-70a4cd7b72b9product-2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\85c61d71-8815-42c7-9ed9-70a4cd7b72b9product-2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.API\\wwwroot\\Uploads\\b93a8f34-48dc-436a-b188-2cbced6644bdproduct-3.jpg",
+      "SourceId": "YouPlay.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.API\\wwwroot\\",
+      "BasePath": "_content/YouPlay.API",
+      "RelativePath": "Uploads/b93a8f34-48dc-436a-b188-2cbced6644bdproduct-3.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\b93a8f34-48dc-436a-b188-2cbced6644bdproduct-3.jpg"
+    }
+  ]
 }

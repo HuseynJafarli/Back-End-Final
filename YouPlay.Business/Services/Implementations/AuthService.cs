@@ -7,33 +7,34 @@ using System.Text;
 using YouPlay.Business.DTOs.TokenDTOs;
 using YouPlay.Business.DTOs.UserDTOs;
 using YouPlay.Business.Services.Interfaces;
+using YouPlay.Business.Utilities;
 using YouPlay.Core.Entities;
 
 namespace YouPlay.Business.Services.Implementations
 {
     public class AuthService : IAuthService
     {
-        private readonly UserManager<AppUser> _userManager;
-        private readonly SignInManager<AppUser> _signInManager;
-        private readonly IConfiguration _configuration;
+        private readonly UserManager<AppUser> userManager;
+        private readonly SignInManager<AppUser> signInManager;
+        private readonly IConfiguration configuration;
 
         public AuthService(UserManager<AppUser> userManager, SignInManager<AppUser> signInManager, IConfiguration configuration)
         {
-            _userManager = userManager;
-            _signInManager = signInManager;
-            _configuration = configuration;
+            this.userManager = userManager;
+            this.signInManager = signInManager;
+            this.configuration = configuration;
         }
         public async Task<TokenResponseDto> Login(UserLoginDto userLoginDto)
         {
             AppUser user = null;
-            user = await _userManager.FindByNameAsync(userLoginDto.Username);
+            user = await userManager.FindByNameAsync(userLoginDto.Username);
             if (user == null)
             {
                 throw new NullReferenceException("Invalid Credentials");
             }
 
-            var result = await _signInManager.CheckPasswordSignInAsync(user, userLoginDto.Password, userLoginDto.RememberMe);
-            var roles = await _userManager.GetRolesAsync(user);
+            var result = await signInManager.CheckPasswordSignInAsync(user, userLoginDto.Password, userLoginDto.RememberMe);
+            var roles = await userManager.GetRolesAsync(user);
 
             List<Claim> claims =
             [
@@ -43,8 +44,8 @@ namespace YouPlay.Business.Services.Implementations
                 .. roles.Select(role=>new Claim(ClaimTypes.Role, role))
             ];
 
-            string secretKey = _configuration.GetSection("JWT:secretkey").Value;
-            DateTime expires = DateTime.UtcNow.AddDays(1);
+            string secretKey = configuration.GetSection("JWT:secretkey").Value;
+            DateTime expires = DateTime.UtcNow.AddDays(10);
 
             SymmetricSecurityKey symmetricSecurityKey = new(Encoding.UTF8.GetBytes(secretKey));
             SigningCredentials signingCredentials = new(symmetricSecurityKey, SecurityAlgorithms.HmacSha256);
@@ -52,8 +53,8 @@ namespace YouPlay.Business.Services.Implementations
             JwtSecurityToken jwtSecurityToken = new(
                 signingCredentials: signingCredentials,
                 claims: claims,
-                audience: _configuration.GetSection("JWT:audience").Value,
-                issuer: _configuration.GetSection("JWT:issuer").Value,
+                audience: configuration.GetSection("JWT:audience").Value,
+                issuer: configuration.GetSection("JWT:issuer").Value,
                 expires: expires,
                 notBefore: DateTime.UtcNow
                 );
@@ -72,7 +73,13 @@ namespace YouPlay.Business.Services.Implementations
                 UserName = userRegisterDto.Username
             };
 
-            await _userManager.CreateAsync(appUser, userRegisterDto.Password);
+            if (userRegisterDto.ProfileImage != null)
+            {
+                appUser.ProfileImageUrl = userRegisterDto.ProfileImage.SaveFile("wwwroot", "Uploads");
+            }
+
+            await userManager.CreateAsync(appUser, userRegisterDto.Password);
+            await userManager.AddToRoleAsync(appUser, "Member");
         }
     }
 }
