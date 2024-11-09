@@ -3,8 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BE324337-931F-4208-B50F-10A8F33F3E0B}|YouPlay.Business\\YouPlay.Business.csproj|c:\\users\\user\\desktop\\final-project\\youplay\\youplay.business\\services\\implementations\\purchaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE324337-931F-4208-B50F-10A8F33F3E0B}|YouPlay.Business\\YouPlay.Business.csproj|solutionrelative:youplay.business\\services\\implementations\\purchaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8402AD5-4F9C-4A09-A673-4DA358574223}|YouPlay.API\\YouPlay.API.csproj|c:\\users\\user\\desktop\\final-project\\youplay\\youplay.api\\controllers\\purchasescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8402AD5-4F9C-4A09-A673-4DA358574223}|YouPlay.API\\YouPlay.API.csproj|solutionrelative:youplay.api\\controllers\\purchasescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4387FE-2535-4484-A160-D80718D3838D}|YouPlay.Core\\YouPlay.Core.csproj|c:\\users\\user\\desktop\\final-project\\youplay\\youplay.core\\entities\\purchase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD4387FE-2535-4484-A160-D80718D3838D}|YouPlay.Core\\YouPlay.Core.csproj|solutionrelative:youplay.core\\entities\\purchase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8402AD5-4F9C-4A09-A673-4DA358574223}|YouPlay.API\\YouPlay.API.csproj|c:\\users\\user\\desktop\\final-project\\youplay\\youplay.api\\controllers\\gamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8402AD5-4F9C-4A09-A673-4DA358574223}|YouPlay.API\\YouPlay.API.csproj|solutionrelative:youplay.api\\controllers\\gamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE324337-931F-4208-B50F-10A8F33F3E0B}|YouPlay.Business\\YouPlay.Business.csproj|c:\\users\\user\\desktop\\final-project\\youplay\\youplay.business\\services\\interfaces\\ipurchaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE324337-931F-4208-B50F-10A8F33F3E0B}|YouPlay.Business\\YouPlay.Business.csproj|solutionrelative:youplay.business\\services\\interfaces\\ipurchaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE324337-931F-4208-B50F-10A8F33F3E0B}|YouPlay.Business\\YouPlay.Business.csproj|c:\\users\\user\\desktop\\final-project\\youplay\\youplay.business\\utilities\\filemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE324337-931F-4208-B50F-10A8F33F3E0B}|YouPlay.Business\\YouPlay.Business.csproj|solutionrelative:youplay.business\\utilities\\filemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD4387FE-2535-4484-A160-D80718D3838D}|YouPlay.Core\\YouPlay.Core.csproj|c:\\users\\user\\desktop\\final-project\\youplay\\youplay.core\\entities\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD4387FE-2535-4484-A160-D80718D3838D}|YouPlay.Core\\YouPlay.Core.csproj|solutionrelative:youplay.core\\entities\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BE324337-931F-4208-B50F-10A8F33F3E0B}|YouPlay.Business\\YouPlay.Business.csproj|c:\\users\\user\\desktop\\final-project\\youplay\\youplay.business\\services\\implementations\\gameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BE324337-931F-4208-B50F-10A8F33F3E0B}|YouPlay.Business\\YouPlay.Business.csproj|solutionrelative:youplay.business\\services\\implementations\\gameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE324337-931F-4208-B50F-10A8F33F3E0B}|YouPlay.Business\\YouPlay.Business.csproj|c:\\users\\user\\desktop\\final-project\\youplay\\youplay.business\\services\\interfaces\\igameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE324337-931F-4208-B50F-10A8F33F3E0B}|YouPlay.Business\\YouPlay.Business.csproj|solutionrelative:youplay.business\\services\\interfaces\\igameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE324337-931F-4208-B50F-10A8F33F3E0B}|YouPlay.Business\\YouPlay.Business.csproj|c:\\users\\user\\desktop\\final-project\\youplay\\youplay.business\\dtos\\purchaseitemdtos\\purchaseitemgetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE324337-931F-4208-B50F-10A8F33F3E0B}|YouPlay.Business\\YouPlay.Business.csproj|solutionrelative:youplay.business\\dtos\\purchaseitemdtos\\purchaseitemgetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE324337-931F-4208-B50F-10A8F33F3E0B}|YouPlay.Business\\YouPlay.Business.csproj|c:\\users\\user\\desktop\\final-project\\youplay\\youplay.business\\dtos\\purchasedtos\\purchasegetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE324337-931F-4208-B50F-10A8F33F3E0B}|YouPlay.Business\\YouPlay.Business.csproj|solutionrelative:youplay.business\\dtos\\purchasedtos\\purchasegetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BE324337-931F-4208-B50F-10A8F33F3E0B}|YouPlay.Business\\YouPlay.Business.csproj|c:\\users\\user\\desktop\\final-project\\youplay\\youplay.business\\dtos\\gamedtos\\gamecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,40 +55,16 @@
       "RelativeMoniker": "D:0:0:{BE324337-931F-4208-B50F-10A8F33F3E0B}|YouPlay.Business\\YouPlay.Business.csproj|solutionrelative:youplay.business\\dtos\\gamedtos\\gameupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE324337-931F-4208-B50F-10A8F33F3E0B}|YouPlay.Business\\YouPlay.Business.csproj|c:\\users\\user\\desktop\\final-project\\youplay\\youplay.business\\services\\interfaces\\igameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE324337-931F-4208-B50F-10A8F33F3E0B}|YouPlay.Business\\YouPlay.Business.csproj|solutionrelative:youplay.business\\services\\interfaces\\igameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE324337-931F-4208-B50F-10A8F33F3E0B}|YouPlay.Business\\YouPlay.Business.csproj|c:\\users\\user\\desktop\\final-project\\youplay\\youplay.business\\services\\implementations\\purchaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE324337-931F-4208-B50F-10A8F33F3E0B}|YouPlay.Business\\YouPlay.Business.csproj|solutionrelative:youplay.business\\services\\implementations\\purchaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE324337-931F-4208-B50F-10A8F33F3E0B}|YouPlay.Business\\YouPlay.Business.csproj|c:\\users\\user\\desktop\\final-project\\youplay\\youplay.business\\dtos\\gamedtos\\gamegetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE324337-931F-4208-B50F-10A8F33F3E0B}|YouPlay.Business\\YouPlay.Business.csproj|solutionrelative:youplay.business\\dtos\\gamedtos\\gamegetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD4387FE-2535-4484-A160-D80718D3838D}|YouPlay.Core\\YouPlay.Core.csproj|c:\\users\\user\\desktop\\final-project\\youplay\\youplay.core\\entities\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD4387FE-2535-4484-A160-D80718D3838D}|YouPlay.Core\\YouPlay.Core.csproj|solutionrelative:youplay.core\\entities\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BE659BEB-6A5D-4FC6-B0B8-13A750A31183}|YouPlay.Data\\YouPlay.Data.csproj|c:\\users\\user\\desktop\\final-project\\youplay\\youplay.data\\configurations\\gameconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BE659BEB-6A5D-4FC6-B0B8-13A750A31183}|YouPlay.Data\\YouPlay.Data.csproj|solutionrelative:youplay.data\\configurations\\gameconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D8402AD5-4F9C-4A09-A673-4DA358574223}|YouPlay.API\\YouPlay.API.csproj|c:\\users\\user\\desktop\\final-project\\youplay\\youplay.api\\controllers\\gamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D8402AD5-4F9C-4A09-A673-4DA358574223}|YouPlay.API\\YouPlay.API.csproj|solutionrelative:youplay.api\\controllers\\gamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE324337-931F-4208-B50F-10A8F33F3E0B}|YouPlay.Business\\YouPlay.Business.csproj|c:\\users\\user\\desktop\\final-project\\youplay\\youplay.business\\utilities\\filemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE324337-931F-4208-B50F-10A8F33F3E0B}|YouPlay.Business\\YouPlay.Business.csproj|solutionrelative:youplay.business\\utilities\\filemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BE659BEB-6A5D-4FC6-B0B8-13A750A31183}|YouPlay.Data\\YouPlay.Data.csproj|c:\\users\\user\\desktop\\final-project\\youplay\\youplay.data\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BE659BEB-6A5D-4FC6-B0B8-13A750A31183}|YouPlay.Data\\YouPlay.Data.csproj|solutionrelative:youplay.data\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE659BEB-6A5D-4FC6-B0B8-13A750A31183}|YouPlay.Data\\YouPlay.Data.csproj|c:\\users\\user\\desktop\\final-project\\youplay\\youplay.data\\migrations\\20241108230657_coverpropremoved.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE659BEB-6A5D-4FC6-B0B8-13A750A31183}|YouPlay.Data\\YouPlay.Data.csproj|solutionrelative:youplay.data\\migrations\\20241108230657_coverpropremoved.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE324337-931F-4208-B50F-10A8F33F3E0B}|YouPlay.Business\\YouPlay.Business.csproj|c:\\users\\user\\desktop\\final-project\\youplay\\youplay.business\\dtos\\gamedtos\\gamegetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE324337-931F-4208-B50F-10A8F33F3E0B}|YouPlay.Business\\YouPlay.Business.csproj|solutionrelative:youplay.business\\dtos\\gamedtos\\gamegetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,25 +74,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "GameService.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.Business\\Services\\Implementations\\GameService.cs",
               "RelativeDocumentMoniker": "YouPlay.Business\\Services\\Implementations\\GameService.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.Business\\Services\\Implementations\\GameService.cs",
               "RelativeToolTip": "YouPlay.Business\\Services\\Implementations\\GameService.cs",
-              "ViewState": "AgIAAOkAAAAAAAAAAAAwwAUBAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-03T15:07:46.782Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": "GameCreateDto.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.Business\\DTOs\\GameDTOs\\GameCreateDto.cs",
               "RelativeDocumentMoniker": "YouPlay.Business\\DTOs\\GameDTOs\\GameCreateDto.cs",
@@ -89,42 +104,57 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "PurchaseService.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.Business\\Services\\Implementations\\PurchaseService.cs",
               "RelativeDocumentMoniker": "YouPlay.Business\\Services\\Implementations\\PurchaseService.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.Business\\Services\\Implementations\\PurchaseService.cs",
               "RelativeToolTip": "YouPlay.Business\\Services\\Implementations\\PurchaseService.cs",
-              "ViewState": "AgIAAGcAAAAAAAAAAAA7wE4AAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-03T14:52:19.265Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 15,
               "Title": "GameGetDto.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.Business\\DTOs\\GameDTOs\\GameGetDto.cs",
               "RelativeDocumentMoniker": "YouPlay.Business\\DTOs\\GameDTOs\\GameGetDto.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.Business\\DTOs\\GameDTOs\\GameGetDto.cs",
               "RelativeToolTip": "YouPlay.Business\\DTOs\\GameDTOs\\GameGetDto.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAuwBAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwBUAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-08T15:44:50.841Z",
               "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "GamesController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.API\\Controllers\\GamesController.cs",
               "RelativeDocumentMoniker": "YouPlay.API\\Controllers\\GamesController.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.API\\Controllers\\GamesController.cs",
               "RelativeToolTip": "YouPlay.API\\Controllers\\GamesController.cs",
-              "ViewState": "AgIAAH8AAAAAAAAAAAAYwDAAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-08T13:19:46.701Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Purchase.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.Core\\Entities\\Purchase.cs",
+              "RelativeDocumentMoniker": "YouPlay.Core\\Entities\\Purchase.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.Core\\Entities\\Purchase.cs",
+              "RelativeToolTip": "YouPlay.Core\\Entities\\Purchase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T18:52:40.021Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -132,43 +162,81 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "PurchasesController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.API\\Controllers\\PurchasesController.cs",
+              "RelativeDocumentMoniker": "YouPlay.API\\Controllers\\PurchasesController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.API\\Controllers\\PurchasesController.cs",
+              "RelativeToolTip": "YouPlay.API\\Controllers\\PurchasesController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwB4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T17:52:35.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IPurchaseService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.Business\\Services\\Interfaces\\IPurchaseService.cs",
+              "RelativeDocumentMoniker": "YouPlay.Business\\Services\\Interfaces\\IPurchaseService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.Business\\Services\\Interfaces\\IPurchaseService.cs",
+              "RelativeToolTip": "YouPlay.Business\\Services\\Interfaces\\IPurchaseService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T17:44:28.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PurchaseItemGetDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.Business\\DTOs\\PurchaseItemDTOs\\PurchaseItemGetDto.cs",
+              "RelativeDocumentMoniker": "YouPlay.Business\\DTOs\\PurchaseItemDTOs\\PurchaseItemGetDto.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.Business\\DTOs\\PurchaseItemDTOs\\PurchaseItemGetDto.cs",
+              "RelativeToolTip": "YouPlay.Business\\DTOs\\PurchaseItemDTOs\\PurchaseItemGetDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T17:32:06.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PurchaseGetDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.Business\\DTOs\\PurchaseDTOs\\PurchaseGetDto.cs",
+              "RelativeDocumentMoniker": "YouPlay.Business\\DTOs\\PurchaseDTOs\\PurchaseGetDto.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.Business\\DTOs\\PurchaseDTOs\\PurchaseGetDto.cs",
+              "RelativeToolTip": "YouPlay.Business\\DTOs\\PurchaseDTOs\\PurchaseGetDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T17:29:54.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "IGameService.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.Business\\Services\\Interfaces\\IGameService.cs",
               "RelativeDocumentMoniker": "YouPlay.Business\\Services\\Interfaces\\IGameService.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.Business\\Services\\Interfaces\\IGameService.cs",
               "RelativeToolTip": "YouPlay.Business\\Services\\Interfaces\\IGameService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAABdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-08T22:17:38.019Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "20241108230657_CoverPropRemoved.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.Data\\Migrations\\20241108230657_CoverPropRemoved.cs",
-              "RelativeDocumentMoniker": "YouPlay.Data\\Migrations\\20241108230657_CoverPropRemoved.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.Data\\Migrations\\20241108230657_CoverPropRemoved.cs",
-              "RelativeToolTip": "YouPlay.Data\\Migrations\\20241108230657_CoverPropRemoved.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T23:06:57.405Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 12,
               "Title": "GameUpdateDto.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.Business\\DTOs\\GameDTOs\\GameUpdateDto.cs",
               "RelativeDocumentMoniker": "YouPlay.Business\\DTOs\\GameDTOs\\GameUpdateDto.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.Business\\DTOs\\GameDTOs\\GameUpdateDto.cs",
               "RelativeToolTip": "YouPlay.Business\\DTOs\\GameDTOs\\GameUpdateDto.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwD0AAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-08T23:04:46.283Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "GameConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.Data\\Configurations\\GameConfiguration.cs",
               "RelativeDocumentMoniker": "YouPlay.Data\\Configurations\\GameConfiguration.cs",
@@ -192,25 +260,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
               "Title": "FileManager.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.Business\\Utilities\\FileManager.cs",
               "RelativeDocumentMoniker": "YouPlay.Business\\Utilities\\FileManager.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.Business\\Utilities\\FileManager.cs",
               "RelativeToolTip": "YouPlay.Business\\Utilities\\FileManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBMAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBAAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-08T22:08:21.253Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "ServiceRegistration.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.Data\\ServiceRegistration.cs",
               "RelativeDocumentMoniker": "YouPlay.Data\\ServiceRegistration.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.Data\\ServiceRegistration.cs",
               "RelativeToolTip": "YouPlay.Data\\ServiceRegistration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-08T22:19:00.899Z"
             }

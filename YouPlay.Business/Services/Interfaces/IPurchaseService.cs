@@ -14,7 +14,7 @@ namespace YouPlay.Business.Services.Interfaces
         Task<ICollection<PurchaseGetDto>> GetByExpessionAsync(bool AsNoTracking = false, Expression<Func<Purchase, bool>>? expression = null, params string[] includes);
         Task<PurchaseGetDto> GetByIdAsync(int id);
         Task<PurchaseGetDto> GetOneByExpressionAsync(bool AsNoTracking = false, Expression<Func<Purchase, bool>>? expression = null, params string[] includes);
-        Task<decimal> CalculateTotalPrice(ICollection<PurchaseItemCreateDto> purchaseItems);
-
+        Task<decimal> CalculateTotalPriceAsync(ICollection<PurchaseItemCreateDto> purchaseItems);
+        Task<ICollection<PurchaseGetDto>> GetByExpressionAsync();
     }
 }

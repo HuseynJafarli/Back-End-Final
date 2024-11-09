@@ -151,3 +151,4 @@ C:\Users\User\Desktop\Final-Project\YouPlay\YouPlay.API\bin\Debug\net8.0\FluentV
 C:\Users\User\Desktop\Final-Project\YouPlay\YouPlay.API\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
 C:\Users\User\Desktop\Final-Project\YouPlay\YouPlay.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\User\Desktop\Final-Project\YouPlay\YouPlay.API\bin\Debug\net8.0\YouPlay.API.staticwebassets.runtime.json
+C:\Users\User\Desktop\Final-Project\YouPlay\YouPlay.API\obj\Debug\net8.0\YouPlay.API.sourcelink.json

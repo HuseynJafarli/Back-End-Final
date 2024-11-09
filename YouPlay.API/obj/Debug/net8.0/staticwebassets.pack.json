@@ -1,8 +1,12 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.API\\wwwroot\\Uploads\\219f0fc3-3d0f-4856-b22a-b2dabe6fd75aproduct-details-1.jpg",
-      "PackagePath": "staticwebassets\\Uploads\\219f0fc3-3d0f-4856-b22a-b2dabe6fd75aproduct-details-1.jpg"
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.API\\wwwroot\\Uploads\\1ec3aa90-8539-4e5e-92eb-6844dd926919product-7.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\1ec3aa90-8539-4e5e-92eb-6844dd926919product-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.API\\wwwroot\\Uploads\\294b88ef-1883-4fe1-b60a-a42faa076a6cproduct-1.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\294b88ef-1883-4fe1-b60a-a42faa076a6cproduct-1.jpg"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.YouPlay.API.Microsoft.AspNetCore.StaticWebAssets.props",

@@ -59,12 +59,6 @@ namespace YouPlay.Business.DTOs.GameDTOs
                     .NotEmpty()
                     .WithMessage("Developer is required.");
 
-                RuleFor(x => x.NewImages)
-                    .NotNull()
-                    .WithMessage("New images collection should not be null.")
-                    .When(x => x.NewImages != null)
-                    .WithMessage("New images collection cannot be empty if provided.");
-
             }
         }
 

@@ -17,3 +17,4 @@ C:\Users\User\Desktop\Final-Project\YouPlay\YouPlay.Business\obj\Debug\net8.0\re
 C:\Users\User\Desktop\Final-Project\YouPlay\YouPlay.Business\obj\Debug\net8.0\YouPlay.Business.pdb
 C:\Users\User\Desktop\Final-Project\YouPlay\YouPlay.Business\obj\Debug\net8.0\YouPlay.Business.genruntimeconfig.cache
 C:\Users\User\Desktop\Final-Project\YouPlay\YouPlay.Business\obj\Debug\net8.0\ref\YouPlay.Business.dll
+C:\Users\User\Desktop\Final-Project\YouPlay\YouPlay.Business\obj\Debug\net8.0\YouPlay.Business.sourcelink.json

@@ -116,11 +116,12 @@ namespace YouPlay.API.Controllers
 
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> Update(int id, GameUpdateDto dto)
+        public async Task<IActionResult> Update([FromForm] GameUpdateDto dto, int id)
         {
+            GameGetDto res = null;
             try
             {
-                await gameService.UpdateAsync(id, dto);
+                res = await gameService.UpdateAsync(id, dto);
             }
             catch (InvalidIdException)
             {
@@ -150,9 +151,9 @@ namespace YouPlay.API.Controllers
                     Data = null
                 });
             }
-            return Ok(new ApiResponse<GameUpdateDto>
+            return Ok(new ApiResponse<GameGetDto>
             {
-                Data = null,
+                Data = res,
                 StatusCode = StatusCodes.Status200OK,
                 ErrorMessage = null
             });

@@ -229,7 +229,7 @@ namespace YouPlay.Business.Services.Implementations
             return gameDto;
         }
 
-        public async Task UpdateAsync(int id, GameUpdateDto dto, IFormFileCollection? newImageFiles = null)
+        public async Task<GameGetDto> UpdateAsync(int id, GameUpdateDto dto, IFormFileCollection? newImageFiles = null)
         {
             if (id < 1) throw new InvalidIdException("Id is not valid");
 
@@ -251,17 +251,17 @@ namespace YouPlay.Business.Services.Implementations
             game.ModifiedDate = DateTime.Now;
 
             // Handle image updates
-            if (dto.GameImages != null)
-            {
-                foreach (var img in game.GameImages.ToList())
-                {
-                    FileManager.DeleteFile("wwwroot", "Uploads", img.ImageUrl);
-                    gameImageRepository.Delete(img);
-                }
-            }
-
             if (newImageFiles != null)
             {
+                if (dto.GameImages != null)
+                {
+                    foreach (var img in game.GameImages.ToList())
+                    {
+                        FileManager.DeleteFile("wwwroot", "Uploads", img.ImageUrl);
+                        gameImageRepository.Delete(img);
+                    }
+                }
+
                 foreach (var newFile in newImageFiles)
                 {
                     var fileName = newFile.SaveFile("wwwroot", "Uploads");
@@ -276,9 +276,42 @@ namespace YouPlay.Business.Services.Implementations
                 }
             }
 
-            // Save all changes to the repository
             await gameRepository.CommitAsync();
             await gameImageRepository.CommitAsync();
+
+
+            var gameDto = new GameGetDto(
+                  Id: game.Id,
+                  Title: game.Title,
+                  Description: game.Description,
+                  Rating: game.Rating,
+                  CostPrice: game.CostPrice,
+                  SalePrice: game.SalePrice,
+                  Discount: game.Discount,
+                  Genre: game.Genre,
+                  ReleaseDate: game.ReleaseDate,
+                  TrailerUrl: game.TrailerUrl,
+                  Developer: game.Developer,
+                  GameImages: game.GameImages.Select(img => new GameImageGetDto(
+                      Id: img.Id,
+                      ImageUrl: img.ImageUrl
+                  )).ToList(),
+                  //Comments: game.Comments.Select(com => new CommentGetDto(
+                  //    Id: com.Id,
+                  //    Content: com.Content,
+                  //    UserName: com.User.UserName,
+                  //    IsPositive: com.IsPositive,
+                  //    CreatedDate: com.CreatedDate,
+                  //    ModifiedDate: com.ModifiedDate,
+                  //    IsDeleted: com.IsDeleted
+                  //)).ToList(),
+                  CreatedDate: game.CreatedDate,
+                  ModifiedDate: game.ModifiedDate,
+                  IsDeleted: game.IsDeleted
+              );
+
+            return gameDto;
+
         }
 
 
