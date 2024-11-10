@@ -11,10 +11,10 @@ C:\Users\User\Desktop\Final-Project\YouPlay\YouPlay.Business\obj\Debug\net8.0\Yo
 C:\Users\User\Desktop\Final-Project\YouPlay\YouPlay.Business\obj\Debug\net8.0\YouPlay.Business.AssemblyInfoInputs.cache
 C:\Users\User\Desktop\Final-Project\YouPlay\YouPlay.Business\obj\Debug\net8.0\YouPlay.Business.AssemblyInfo.cs
 C:\Users\User\Desktop\Final-Project\YouPlay\YouPlay.Business\obj\Debug\net8.0\YouPlay.Business.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Final-Project\YouPlay\YouPlay.Business\obj\Debug\net8.0\YouPlay.Business.sourcelink.json
 C:\Users\User\Desktop\Final-Project\YouPlay\YouPlay.Business\obj\Debug\net8.0\YouPlay..A6B80D62.Up2Date
 C:\Users\User\Desktop\Final-Project\YouPlay\YouPlay.Business\obj\Debug\net8.0\YouPlay.Business.dll
 C:\Users\User\Desktop\Final-Project\YouPlay\YouPlay.Business\obj\Debug\net8.0\refint\YouPlay.Business.dll
 C:\Users\User\Desktop\Final-Project\YouPlay\YouPlay.Business\obj\Debug\net8.0\YouPlay.Business.pdb
 C:\Users\User\Desktop\Final-Project\YouPlay\YouPlay.Business\obj\Debug\net8.0\YouPlay.Business.genruntimeconfig.cache
 C:\Users\User\Desktop\Final-Project\YouPlay\YouPlay.Business\obj\Debug\net8.0\ref\YouPlay.Business.dll
-C:\Users\User\Desktop\Final-Project\YouPlay\YouPlay.Business\obj\Debug\net8.0\YouPlay.Business.sourcelink.json

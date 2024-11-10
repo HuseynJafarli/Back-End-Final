@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35219.272
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouPlay.Core", "YouPlay.Core\YouPlay.Core.csproj", "{BD4387FE-2535-4484-A160-D80718D3838D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YouPlay.Core", "YouPlay.Core\YouPlay.Core.csproj", "{BD4387FE-2535-4484-A160-D80718D3838D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouPlay.Data", "YouPlay.Data\YouPlay.Data.csproj", "{BE659BEB-6A5D-4FC6-B0B8-13A750A31183}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YouPlay.Data", "YouPlay.Data\YouPlay.Data.csproj", "{BE659BEB-6A5D-4FC6-B0B8-13A750A31183}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouPlay.Business", "YouPlay.Business\YouPlay.Business.csproj", "{BE324337-931F-4208-B50F-10A8F33F3E0B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YouPlay.Business", "YouPlay.Business\YouPlay.Business.csproj", "{BE324337-931F-4208-B50F-10A8F33F3E0B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouPlay.API", "YouPlay.API\YouPlay.API.csproj", "{D8402AD5-4F9C-4A09-A673-4DA358574223}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YouPlay.API", "YouPlay.API\YouPlay.API.csproj", "{D8402AD5-4F9C-4A09-A673-4DA358574223}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouPlay.MVC", "YouPlay.MVC\YouPlay.MVC.csproj", "{5E31ADF3-7014-442E-A86A-3345D3D5841E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{D8402AD5-4F9C-4A09-A673-4DA358574223}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8402AD5-4F9C-4A09-A673-4DA358574223}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8402AD5-4F9C-4A09-A673-4DA358574223}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E31ADF3-7014-442E-A86A-3345D3D5841E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E31ADF3-7014-442E-A86A-3345D3D5841E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E31ADF3-7014-442E-A86A-3345D3D5841E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E31ADF3-7014-442E-A86A-3345D3D5841E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

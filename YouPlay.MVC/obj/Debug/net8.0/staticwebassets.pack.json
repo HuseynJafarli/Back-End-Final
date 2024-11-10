@@ -1,0 +1,793 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\assets\\bower_components\\bootstrap-sweetalert\\lib\\sweet-alert.css",
+      "PackagePath": "staticwebassets\\assets\\bower_components\\bootstrap-sweetalert\\lib\\sweet-alert.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\assets\\bower_components\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\bower_components\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\assets\\bower_components\\font-awesome\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\assets\\bower_components\\font-awesome\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\assets\\bower_components\\magnific-popup\\dist\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\assets\\bower_components\\magnific-popup\\dist\\magnific-popup.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\assets\\bower_components\\owl.carousel\\dist\\assets\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\assets\\bower_components\\owl.carousel\\dist\\assets\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\assets\\bower_components\\owl.carousel\\dist\\assets\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\assets\\bower_components\\owl.carousel\\dist\\assets\\owl.video.play.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\assets\\bower_components\\social-likes\\dist\\social-likes_flat.css",
+      "PackagePath": "staticwebassets\\assets\\bower_components\\social-likes\\dist\\social-likes_flat.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\assets\\plugins\\slider-revolution\\examples&source\\rs-plugin\\assets\\arrow_left.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\slider-revolution\\examples&source\\rs-plugin\\assets\\arrow_left.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\assets\\plugins\\slider-revolution\\examples&source\\rs-plugin\\assets\\arrow_left2.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\slider-revolution\\examples&source\\rs-plugin\\assets\\arrow_left2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\assets\\plugins\\slider-revolution\\examples&source\\rs-plugin\\assets\\arrow_right.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\slider-revolution\\examples&source\\rs-plugin\\assets\\arrow_right.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\assets\\plugins\\slider-revolution\\examples&source\\rs-plugin\\assets\\arrow_right2.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\slider-revolution\\examples&source\\rs-plugin\\assets\\arrow_right2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\assets\\plugins\\slider-revolution\\examples&source\\rs-plugin\\assets\\arrowleft.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\slider-revolution\\examples&source\\rs-plugin\\assets\\arrowleft.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\assets\\plugins\\slider-revolution\\examples&source\\rs-plugin\\assets\\arrowright.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\slider-revolution\\examples&source\\rs-plugin\\assets\\arrowright.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\assets\\plugins\\slider-revolution\\examples&source\\rs-plugin\\assets\\boxed_bgtile.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\slider-revolution\\examples&source\\rs-plugin\\assets\\boxed_bgtile.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\assets\\plugins\\slider-revolution\\examples&source\\rs-plugin\\assets\\bullet.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\slider-revolution\\examples&source\\rs-plugin\\assets\\bullet.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\assets\\plugins\\slider-revolution\\examples&source\\rs-plugin\\assets\\bullet_boxed.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\slider-revolution\\examples&source\\rs-plugin\\assets\\bullet_boxed.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\assets\\plugins\\slider-revolution\\examples&source\\rs-plugin\\assets\\bullets.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\slider-revolution\\examples&source\\rs-plugin\\assets\\bullets.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\assets\\plugins\\slider-revolution\\examples&source\\rs-plugin\\assets\\bullets2.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\slider-revolution\\examples&source\\rs-plugin\\assets\\bullets2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\assets\\plugins\\slider-revolution\\examples&source\\rs-plugin\\assets\\coloredbg.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\slider-revolution\\examples&source\\rs-plugin\\assets\\coloredbg.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\assets\\plugins\\slider-revolution\\examples&source\\rs-plugin\\assets\\gridtile.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\slider-revolution\\examples&source\\rs-plugin\\assets\\gridtile.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\assets\\plugins\\slider-revolution\\examples&source\\rs-plugin\\assets\\gridtile_3x3.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\slider-revolution\\examples&source\\rs-plugin\\assets\\gridtile_3x3.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\assets\\plugins\\slider-revolution\\examples&source\\rs-plugin\\assets\\gridtile_3x3_white.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\slider-revolution\\examples&source\\rs-plugin\\assets\\gridtile_3x3_white.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\assets\\plugins\\slider-revolution\\examples&source\\rs-plugin\\assets\\gridtile_white.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\slider-revolution\\examples&source\\rs-plugin\\assets\\gridtile_white.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\assets\\plugins\\slider-revolution\\examples&source\\rs-plugin\\assets\\large_left.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\slider-revolution\\examples&source\\rs-plugin\\assets\\large_left.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\assets\\plugins\\slider-revolution\\examples&source\\rs-plugin\\assets\\large_right.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\slider-revolution\\examples&source\\rs-plugin\\assets\\large_right.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\assets\\plugins\\slider-revolution\\examples&source\\rs-plugin\\assets\\loader.gif",
+      "PackagePath": "staticwebassets\\assets\\plugins\\slider-revolution\\examples&source\\rs-plugin\\assets\\loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\assets\\plugins\\slider-revolution\\examples&source\\rs-plugin\\assets\\navigdots.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\slider-revolution\\examples&source\\rs-plugin\\assets\\navigdots.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\assets\\plugins\\slider-revolution\\examples&source\\rs-plugin\\assets\\navigdots_bgtile.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\slider-revolution\\examples&source\\rs-plugin\\assets\\navigdots_bgtile.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\assets\\plugins\\slider-revolution\\examples&source\\rs-plugin\\assets\\shadow1.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\slider-revolution\\examples&source\\rs-plugin\\assets\\shadow1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\assets\\plugins\\slider-revolution\\examples&source\\rs-plugin\\assets\\shadow2.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\slider-revolution\\examples&source\\rs-plugin\\assets\\shadow2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\assets\\plugins\\slider-revolution\\examples&source\\rs-plugin\\assets\\shadow3.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\slider-revolution\\examples&source\\rs-plugin\\assets\\shadow3.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\assets\\plugins\\slider-revolution\\examples&source\\rs-plugin\\assets\\small_left.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\slider-revolution\\examples&source\\rs-plugin\\assets\\small_left.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\assets\\plugins\\slider-revolution\\examples&source\\rs-plugin\\assets\\small_left_boxed.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\slider-revolution\\examples&source\\rs-plugin\\assets\\small_left_boxed.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\assets\\plugins\\slider-revolution\\examples&source\\rs-plugin\\assets\\small_right.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\slider-revolution\\examples&source\\rs-plugin\\assets\\small_right.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\assets\\plugins\\slider-revolution\\examples&source\\rs-plugin\\assets\\small_right_boxed.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\slider-revolution\\examples&source\\rs-plugin\\assets\\small_right_boxed.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\assets\\plugins\\slider-revolution\\examples&source\\rs-plugin\\assets\\timer.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\slider-revolution\\examples&source\\rs-plugin\\assets\\timer.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\assets\\plugins\\slider-revolution\\examples&source\\rs-plugin\\css\\settings.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\slider-revolution\\examples&source\\rs-plugin\\css\\settings.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\assets\\plugins\\slider-revolution\\examples&source\\rs-plugin\\images\\gradient\\g30.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\slider-revolution\\examples&source\\rs-plugin\\images\\gradient\\g30.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\assets\\plugins\\slider-revolution\\examples&source\\rs-plugin\\images\\gradient\\g40.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\slider-revolution\\examples&source\\rs-plugin\\images\\gradient\\g40.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\assets\\plugins\\slider-revolution\\examples&source\\rs-plugin\\js\\jquery.themepunch.revolution.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\slider-revolution\\examples&source\\rs-plugin\\js\\jquery.themepunch.revolution.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\assets\\plugins\\slider-revolution\\examples&source\\rs-plugin\\js\\jquery.themepunch.tools.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\slider-revolution\\examples&source\\rs-plugin\\js\\jquery.themepunch.tools.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\assets\\youplay\\css\\youplay-anime.min.css",
+      "PackagePath": "staticwebassets\\assets\\youplay\\css\\youplay-anime.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\assets\\youplay\\css\\youplay-light.min.css",
+      "PackagePath": "staticwebassets\\assets\\youplay\\css\\youplay-light.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\assets\\youplay\\css\\youplay-shooter.min.css",
+      "PackagePath": "staticwebassets\\assets\\youplay\\css\\youplay-shooter.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\assets\\youplay\\css\\youplay.min.css",
+      "PackagePath": "staticwebassets\\assets\\youplay\\css\\youplay.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\assets\\youplay\\js\\youplay.min.js",
+      "PackagePath": "staticwebassets\\assets\\youplay\\js\\youplay.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\css\\custom.css",
+      "PackagePath": "staticwebassets\\dark\\assets\\css\\custom.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\avatar-user-1.png",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\avatar-user-1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\avatar-user-2.png",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\avatar-user-2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\avatar-user-3.png",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\avatar-user-3.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\avatar-user-4.png",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\avatar-user-4.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\avatar.png",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\avatar.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\banner-bg.jpg",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\banner-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\banner-blog-bg.jpg",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\banner-blog-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\banner-witcher-3.jpg",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\banner-witcher-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\clan-ehome.jpg",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\clan-ehome.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\clan-fnatic.jpg",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\clan-fnatic.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\clan-navi.jpg",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\clan-navi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\clan-skt-t1.jpg",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\clan-skt-t1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\clan-team-secret.jpg",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\clan-team-secret.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\clan-virtus-pro.jpg",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\clan-virtus-pro.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\clan-youplay.jpg",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\clan-youplay.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\dummy.png",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\dummy.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\footer-bg.jpg",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\footer-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\game-assassins-creed-4-500x375.jpg",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\game-assassins-creed-4-500x375.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\game-bloodborne-1920x1151.jpg",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\game-bloodborne-1920x1151.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\game-bloodborne-2-1920x1080.jpg",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\game-bloodborne-2-1920x1080.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\game-bloodborne-2-500x375.jpg",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\game-bloodborne-2-500x375.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\game-bloodborne-3-1920x1080.jpg",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\game-bloodborne-3-1920x1080.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\game-bloodborne-3-500x375.jpg",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\game-bloodborne-3-500x375.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\game-bloodborne-4-1920x1080.jpg",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\game-bloodborne-4-1920x1080.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\game-bloodborne-4-500x375.jpg",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\game-bloodborne-4-500x375.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\game-bloodborne-5-1920x1080.jpg",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\game-bloodborne-5-1920x1080.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\game-bloodborne-5-500x375.jpg",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\game-bloodborne-5-500x375.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\game-bloodborne-500x375.jpg",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\game-bloodborne-500x375.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\game-bloodborne-6-1920x1080.jpg",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\game-bloodborne-6-1920x1080.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\game-bloodborne-6-500x375.jpg",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\game-bloodborne-6-500x375.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\game-bloodborne-7-1920x1080.jpg",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\game-bloodborne-7-1920x1080.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\game-bloodborne-7-500x375.jpg",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\game-bloodborne-7-500x375.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\game-dark-souls-ii-10-1680x1050.jpg",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\game-dark-souls-ii-10-1680x1050.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\game-dark-souls-ii-1920x1080.jpg",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\game-dark-souls-ii-1920x1080.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\game-dark-souls-ii-2-1920x1248.jpg",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\game-dark-souls-ii-2-1920x1248.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\game-dark-souls-ii-2-500x375.jpg",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\game-dark-souls-ii-2-500x375.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\game-dark-souls-ii-3-1920x1080.jpg",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\game-dark-souls-ii-3-1920x1080.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\game-dark-souls-ii-3-500x375.jpg",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\game-dark-souls-ii-3-500x375.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\game-dark-souls-ii-4-1280x720.jpg",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\game-dark-souls-ii-4-1280x720.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\game-dark-souls-ii-4-500x375.jpg",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\game-dark-souls-ii-4-500x375.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\game-dark-souls-ii-5-1280x720.jpg",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\game-dark-souls-ii-5-1280x720.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\game-dark-souls-ii-5-500x375.jpg",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\game-dark-souls-ii-5-500x375.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\game-dark-souls-ii-500x375.jpg",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\game-dark-souls-ii-500x375.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\game-dark-souls-ii-6-1280x720.jpg",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\game-dark-souls-ii-6-1280x720.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\game-dark-souls-ii-6-500x375.jpg",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\game-dark-souls-ii-6-500x375.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\game-dark-souls-ii-7-1280x720.jpg",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\game-dark-souls-ii-7-1280x720.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\game-dark-souls-ii-7-500x375.jpg",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\game-dark-souls-ii-7-500x375.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\game-dark-souls-ii-8-1280x720.jpg",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\game-dark-souls-ii-8-1280x720.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\game-dark-souls-ii-8-500x375.jpg",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\game-dark-souls-ii-8-500x375.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\game-dark-souls-ii-9-1280x720.jpg",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\game-dark-souls-ii-9-1280x720.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\game-dark-souls-ii-9-500x375.jpg",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\game-dark-souls-ii-9-500x375.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\game-diablo-iii-1400x656.jpg",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\game-diablo-iii-1400x656.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\game-diablo-iii-500x375.jpg",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\game-diablo-iii-500x375.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\game-dragons-dogma-500x375.jpg",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\game-dragons-dogma-500x375.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\game-half-life-3-500x375.jpg",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\game-half-life-3-500x375.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\game-kingdoms-of-amalur-reckoning-1440x900.jpg",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\game-kingdoms-of-amalur-reckoning-1440x900.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\game-kingdoms-of-amalur-reckoning-2-1940x1185.jpg",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\game-kingdoms-of-amalur-reckoning-2-1940x1185.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\game-kingdoms-of-amalur-reckoning-2-500x375.jpg",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\game-kingdoms-of-amalur-reckoning-2-500x375.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\game-kingdoms-of-amalur-reckoning-3-1920x1080.jpg",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\game-kingdoms-of-amalur-reckoning-3-1920x1080.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\game-kingdoms-of-amalur-reckoning-3-500x375.jpg",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\game-kingdoms-of-amalur-reckoning-3-500x375.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\game-kingdoms-of-amalur-reckoning-4-1920x1080.jpg",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\game-kingdoms-of-amalur-reckoning-4-1920x1080.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\game-kingdoms-of-amalur-reckoning-4-500x375.jpg",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\game-kingdoms-of-amalur-reckoning-4-500x375.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\game-kingdoms-of-amalur-reckoning-5-1280x800.jpg",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\game-kingdoms-of-amalur-reckoning-5-1280x800.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\game-kingdoms-of-amalur-reckoning-5-500x375.jpg",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\game-kingdoms-of-amalur-reckoning-5-500x375.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\game-kingdoms-of-amalur-reckoning-500x375.jpg",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\game-kingdoms-of-amalur-reckoning-500x375.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\game-lords-of-the-fallen-500x375.jpg",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\game-lords-of-the-fallen-500x375.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\game-map-dust.jpg",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\game-map-dust.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\game-map-mirage.jpg",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\game-map-mirage.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\game-middle-eart-shadow-of-mordor-500x375.jpg",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\game-middle-eart-shadow-of-mordor-500x375.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\game-neverwinter-500x375.jpg",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\game-neverwinter-500x375.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\game-prototype-500x375.jpg",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\game-prototype-500x375.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\game-risen-3-500x375.jpg",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\game-risen-3-500x375.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\game-skyrim-500x375.jpg",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\game-skyrim-500x375.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\game-soul-sacrifice-500x375.jpg",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\game-soul-sacrifice-500x375.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\game-the-witcher-500x375.jpg",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\game-the-witcher-500x375.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\icon.png",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\icon.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\logo-witcher-3-400x197.png",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\logo-witcher-3-400x197.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\logo.png",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\partner-logo-1.png",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\partner-logo-1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\partner-logo-2.png",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\partner-logo-2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\partner-logo-3.png",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\partner-logo-3.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\partner-logo-4.png",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\partner-logo-4.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\partner-logo-5.png",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\partner-logo-5.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\partner-logo-6.png",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\partner-logo-6.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\partner-logo-7.png",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\partner-logo-7.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\partner-logo-8.png",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\partner-logo-8.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\user-avatar.jpg",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\user-avatar.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\dark\\assets\\images\\user-photo.jpg",
+      "PackagePath": "staticwebassets\\dark\\assets\\images\\user-photo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.YouPlay.MVC.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.YouPlay.MVC.props",
+      "PackagePath": "build\\YouPlay.MVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.YouPlay.MVC.props",
+      "PackagePath": "buildMultiTargeting\\YouPlay.MVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.YouPlay.MVC.props",
+      "PackagePath": "buildTransitive\\YouPlay.MVC.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

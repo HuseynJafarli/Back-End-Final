@@ -7,6 +7,7 @@ C:\Users\User\Desktop\Final-Project\YouPlay\YouPlay.Core\obj\Debug\net8.0\YouPla
 C:\Users\User\Desktop\Final-Project\YouPlay\YouPlay.Core\obj\Debug\net8.0\YouPlay.Core.AssemblyInfoInputs.cache
 C:\Users\User\Desktop\Final-Project\YouPlay\YouPlay.Core\obj\Debug\net8.0\YouPlay.Core.AssemblyInfo.cs
 C:\Users\User\Desktop\Final-Project\YouPlay\YouPlay.Core\obj\Debug\net8.0\YouPlay.Core.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Final-Project\YouPlay\YouPlay.Core\obj\Debug\net8.0\YouPlay.Core.sourcelink.json
 C:\Users\User\Desktop\Final-Project\YouPlay\YouPlay.Core\obj\Debug\net8.0\YouPlay.Core.dll
 C:\Users\User\Desktop\Final-Project\YouPlay\YouPlay.Core\obj\Debug\net8.0\refint\YouPlay.Core.dll
 C:\Users\User\Desktop\Final-Project\YouPlay\YouPlay.Core\obj\Debug\net8.0\YouPlay.Core.pdb

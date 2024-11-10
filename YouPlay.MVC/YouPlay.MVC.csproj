@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="wwwroot\assets\bower_components\bootstrap-sweetalert\lib\sweet-alert.css" />
+    <Content Include="wwwroot\assets\bower_components\bootstrap\dist\css\bootstrap.min.css" />
+    <Content Include="wwwroot\assets\bower_components\font-awesome\css\font-awesome.min.css" />
+    <Content Include="wwwroot\assets\bower_components\magnific-popup\dist\magnific-popup.css" />
+    <Content Include="wwwroot\assets\bower_components\owl.carousel\dist\assets\owl.carousel.min.css" />
+    <Content Include="wwwroot\assets\bower_components\owl.carousel\dist\assets\owl.video.play.png" />
+    <Content Include="wwwroot\assets\bower_components\social-likes\dist\social-likes_flat.css" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\assets\bower_components\bootstrap-sweetalert\lib\sweet-alert.min.js" />
+    <None Include="wwwroot\assets\bower_components\bootstrap-validator\dist\validator.min.js" />
+    <None Include="wwwroot\assets\bower_components\bootstrap\dist\js\bootstrap.min.js" />
+    <None Include="wwwroot\assets\bower_components\HexagonProgress\jquery.hexagonprogress.min.js" />
+    <None Include="wwwroot\assets\bower_components\imagesloaded\imagesloaded.pkgd.min.js" />
+    <None Include="wwwroot\assets\bower_components\isotope\dist\isotope.pkgd.min.js" />
+    <None Include="wwwroot\assets\bower_components\jarallax\dist\jarallax.min.js" />
+    <None Include="wwwroot\assets\bower_components\jquery.countdown\dist\jquery.countdown.min.js" />
+    <None Include="wwwroot\assets\bower_components\jquery\dist\jquery.min.js" />
+    <None Include="wwwroot\assets\bower_components\magnific-popup\dist\jquery.magnific-popup.min.js" />
+    <None Include="wwwroot\assets\bower_components\owl.carousel\dist\owl.carousel.min.js" />
+    <None Include="wwwroot\assets\bower_components\smoothscroll-for-websites\SmoothScroll.js" />
+    <None Include="wwwroot\assets\bower_components\social-likes\dist\social-likes.min.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RestSharp" Version="112.1.0" />
+  </ItemGroup>
+
+</Project>

@@ -9,6 +9,7 @@ C:\Users\User\Desktop\Final-Project\YouPlay\YouPlay.Data\obj\Debug\net8.0\YouPla
 C:\Users\User\Desktop\Final-Project\YouPlay\YouPlay.Data\obj\Debug\net8.0\YouPlay.Data.AssemblyInfoInputs.cache
 C:\Users\User\Desktop\Final-Project\YouPlay\YouPlay.Data\obj\Debug\net8.0\YouPlay.Data.AssemblyInfo.cs
 C:\Users\User\Desktop\Final-Project\YouPlay\YouPlay.Data\obj\Debug\net8.0\YouPlay.Data.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Final-Project\YouPlay\YouPlay.Data\obj\Debug\net8.0\YouPlay.Data.sourcelink.json
 C:\Users\User\Desktop\Final-Project\YouPlay\YouPlay.Data\obj\Debug\net8.0\YouPlay..5558B876.Up2Date
 C:\Users\User\Desktop\Final-Project\YouPlay\YouPlay.Data\obj\Debug\net8.0\YouPlay.Data.dll
 C:\Users\User\Desktop\Final-Project\YouPlay\YouPlay.Data\obj\Debug\net8.0\refint\YouPlay.Data.dll
