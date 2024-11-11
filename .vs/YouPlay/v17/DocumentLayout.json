@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5E31ADF3-7014-442E-A86A-3345D3D5841E}|YouPlay.MVC\\YouPlay.MVC.csproj|c:\\users\\user\\desktop\\final-project\\youplay\\youplay.mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5E31ADF3-7014-442E-A86A-3345D3D5841E}|YouPlay.MVC\\YouPlay.MVC.csproj|solutionrelative:youplay.mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5E31ADF3-7014-442E-A86A-3345D3D5841E}|YouPlay.MVC\\YouPlay.MVC.csproj|c:\\users\\user\\desktop\\final-project\\youplay\\youplay.mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5E31ADF3-7014-442E-A86A-3345D3D5841E}|YouPlay.MVC\\YouPlay.MVC.csproj|solutionrelative:youplay.mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5E31ADF3-7014-442E-A86A-3345D3D5841E}|YouPlay.MVC\\YouPlay.MVC.csproj|c:\\users\\user\\desktop\\final-project\\youplay\\youplay.mvc\\wwwroot\\assets\\youplay\\css\\youplay.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{5E31ADF3-7014-442E-A86A-3345D3D5841E}|YouPlay.MVC\\YouPlay.MVC.csproj|solutionrelative:youplay.mvc\\wwwroot\\assets\\youplay\\css\\youplay.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{D8402AD5-4F9C-4A09-A673-4DA358574223}|YouPlay.API\\YouPlay.API.csproj|c:\\users\\user\\desktop\\final-project\\youplay\\youplay.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8402AD5-4F9C-4A09-A673-4DA358574223}|YouPlay.API\\YouPlay.API.csproj|solutionrelative:youplay.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE324337-931F-4208-B50F-10A8F33F3E0B}|YouPlay.Business\\YouPlay.Business.csproj|c:\\users\\user\\desktop\\final-project\\youplay\\youplay.business\\services\\implementations\\gameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE324337-931F-4208-B50F-10A8F33F3E0B}|YouPlay.Business\\YouPlay.Business.csproj|solutionrelative:youplay.business\\services\\implementations\\gameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8402AD5-4F9C-4A09-A673-4DA358574223}|YouPlay.API\\YouPlay.API.csproj|c:\\users\\user\\desktop\\final-project\\youplay\\youplay.api\\controllers\\gamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8402AD5-4F9C-4A09-A673-4DA358574223}|YouPlay.API\\YouPlay.API.csproj|solutionrelative:youplay.api\\controllers\\gamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E31ADF3-7014-442E-A86A-3345D3D5841E}|YouPlay.MVC\\YouPlay.MVC.csproj|c:\\users\\user\\desktop\\final-project\\youplay\\youplay.mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E31ADF3-7014-442E-A86A-3345D3D5841E}|YouPlay.MVC\\YouPlay.MVC.csproj|solutionrelative:youplay.mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5E31ADF3-7014-442E-A86A-3345D3D5841E}|YouPlay.MVC\\YouPlay.MVC.csproj|c:\\users\\user\\desktop\\final-project\\youplay\\youplay.mvc\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -21,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{5E31ADF3-7014-442E-A86A-3345D3D5841E}|YouPlay.MVC\\YouPlay.MVC.csproj|c:\\users\\user\\desktop\\final-project\\youplay\\youplay.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5E31ADF3-7014-442E-A86A-3345D3D5841E}|YouPlay.MVC\\YouPlay.MVC.csproj|solutionrelative:youplay.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E31ADF3-7014-442E-A86A-3345D3D5841E}|YouPlay.MVC\\YouPlay.MVC.csproj|c:\\users\\user\\desktop\\final-project\\youplay\\youplay.mvc\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5E31ADF3-7014-442E-A86A-3345D3D5841E}|YouPlay.MVC\\YouPlay.MVC.csproj|solutionrelative:youplay.mvc\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5E31ADF3-7014-442E-A86A-3345D3D5841E}|YouPlay.MVC\\YouPlay.MVC.csproj|c:\\users\\user\\desktop\\final-project\\youplay\\youplay.mvc\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -50,32 +54,73 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "youplay.min.css",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\assets\\youplay\\css\\youplay.min.css",
-              "RelativeDocumentMoniker": "YouPlay.MVC\\wwwroot\\assets\\youplay\\css\\youplay.min.css",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\wwwroot\\assets\\youplay\\css\\youplay.min.css",
-              "RelativeToolTip": "YouPlay.MVC\\wwwroot\\assets\\youplay\\css\\youplay.min.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-11-10T21:49:15.366Z",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "YouPlay.MVC\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "YouPlay.MVC\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADEAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-10T18:07:03.37Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Error.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\Views\\Shared\\Error.cshtml",
-              "RelativeDocumentMoniker": "YouPlay.MVC\\Views\\Shared\\Error.cshtml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\Views\\Shared\\Error.cshtml",
-              "RelativeToolTip": "YouPlay.MVC\\Views\\Shared\\Error.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "YouPlay.MVC\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "YouPlay.MVC\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACEAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-10T20:42:11.167Z",
+              "WhenOpened": "2024-11-10T17:40:15.348Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.API\\Program.cs",
+              "RelativeDocumentMoniker": "YouPlay.API\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.API\\Program.cs",
+              "RelativeToolTip": "YouPlay.API\\Program.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAQwFEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T19:12:29.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GameService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.Business\\Services\\Implementations\\GameService.cs",
+              "RelativeDocumentMoniker": "YouPlay.Business\\Services\\Implementations\\GameService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.Business\\Services\\Implementations\\GameService.cs",
+              "RelativeToolTip": "YouPlay.Business\\Services\\Implementations\\GameService.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAYwDEAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T18:55:17.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GamesController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.API\\Controllers\\GamesController.cs",
+              "RelativeDocumentMoniker": "YouPlay.API\\Controllers\\GamesController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.API\\Controllers\\GamesController.cs",
+              "RelativeToolTip": "YouPlay.API\\Controllers\\GamesController.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAgwGAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T18:54:29.216Z",
               "EditorCaption": ""
             },
             {
@@ -84,7 +129,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "YouPlay.MVC\\Views\\_ViewStart.cshtml",
@@ -92,25 +137,11 @@
               "RelativeToolTip": "YouPlay.MVC\\Views\\_ViewStart.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-10T20:41:29.283Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-10T20:41:29.283Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "YouPlay.MVC\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "YouPlay.MVC\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-10T18:07:03.37Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "YouPlay.MVC\\Models\\ErrorViewModel.cs",
@@ -122,7 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "YouPlay.MVC\\Properties\\launchSettings.json",
@@ -134,7 +165,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\Program.cs",
               "RelativeDocumentMoniker": "YouPlay.MVC\\Program.cs",
@@ -142,12 +173,11 @@
               "RelativeToolTip": "YouPlay.MVC\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T17:47:01.733Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-10T17:47:01.733Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "YouPlay.MVC\\Controllers\\HomeController.cs",
@@ -159,20 +189,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "YouPlay.MVC\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "YouPlay.MVC\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAFYCAAAAAAAAAAAMwEECAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-10T17:40:15.348Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "YouPlay.MVC\\Views\\_ViewImports.cshtml",
@@ -180,8 +197,7 @@
               "RelativeToolTip": "YouPlay.MVC\\Views\\_ViewImports.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-10T17:40:13.449Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-10T17:40:13.449Z"
             }
           ]
         }

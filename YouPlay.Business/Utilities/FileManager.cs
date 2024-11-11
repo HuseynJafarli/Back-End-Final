@@ -11,7 +11,7 @@ namespace YouPlay.Business.Utilities
 
             fileName = fileName.Length > 64 ? fileName.Substring(fileName.Length - 64, 64) : fileName;
 
-            fileName = Guid.NewGuid().ToString() + fileName;
+            fileName = "https://localhost:7283/uploads/" + Guid.NewGuid().ToString() + fileName;
 
             string path = Path.Combine(root, folderName, fileName);
             using (FileStream stream = new FileStream(path, FileMode.Create))

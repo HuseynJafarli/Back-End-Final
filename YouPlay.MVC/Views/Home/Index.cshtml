@@ -27,372 +27,333 @@
     </section>
     <!-- /Banner -->
     <!-- Images With Text -->
-    <div class="youplay-carousel" data-autoplay="5000">
-        <a class="angled-img" href="store-product-1.html">
-            <div class="img">
-                <img src="~/dark/assets/images/game-bloodborne-500x375.jpg" alt="">
-            </div>
-            <div class="over-info">
-                <div>
-                    <div>
-                        <h4>Bloodborne</h4>
-                        <div class="rating">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                        </div>
+    <div class="youplay-carousel owl-carousel owl-loaded owl-drag youplay-carousel-1" data-autoplay="5000">
+        <div class="owl-stage-outer">
+            <div class="owl-stage" style="transform: translate3d(-320px, 0px, 0px); transition: 0.25s; width: 6125px; padding-left: 70px; padding-right: 70px;">
+                
+                @foreach (var item in Model)
+                {
+                    <div class="owl-item cloned" style="width: 315px;">
+                        <a class="angled-img" href="#!">
+                            <div class="img">
+                                <img src="@item.GameImages[0].ImageUrl" alt="">
+                            </div>
+                            <div class="over-info">
+                                <div>
+                                    <div>
+                                        <h4>@item.Title</h4>
+                                        <div class="rating">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-half-o"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
                     </div>
-                </div>
+                }                
+
             </div>
-        </a>
-        <a class="angled-img" href="#!">
-            <div class="img">
-                <img src="~/dark/assets/images/game-dark-souls-ii-500x375.jpg" alt="">
-            </div>
-            <div class="over-info">
-                <div>
-                    <div>
-                        <h4>Dark Souls II</h4>
-                        <div class="rating">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star-half-o"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-        <a class="angled-img" href="#!">
-            <div class="img">
-                <img src="~/dark/assets/images/game-lords-of-the-fallen-500x375.jpg" alt="">
-            </div>
-            <div class="over-info">
-                <div>
-                    <div>
-                        <h4>Lords of the Fallen</h4>
-                        <div class="rating">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star-o"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-        <a class="angled-img" href="#!">
-            <div class="img">
-                <img src="~/dark/assets/images/game-middle-eart-shadow-of-mordor-500x375.jpg" alt="">
-            </div>
-            <div class="over-info">
-                <div>
-                    <div>
-                        <h4>Middle-earth: Shadow of Mordor</h4>
-                        <div class="rating">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star-half-o"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-        <a class="angled-img" href="#!">
-            <div class="img">
-                <img src="~/dark/assets/images/game-soul-sacrifice-500x375.jpg" alt="">
-            </div>
-            <div class="over-info">
-                <div>
-                    <div>
-                        <h4>Soul Sacrifice</h4>
-                        <div class="rating">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star-half-o"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-        <a class="angled-img" href="#!">
-            <div class="img">
-                <img src="~/dark/assets/images/game-kingdoms-of-amalur-reckoning-500x375.jpg" alt="">
-            </div>
-            <div class="over-info">
-                <div>
-                    <div>
-                        <h4>Kingdoms of Amalur: Reckoning</h4>
-                        <div class="rating">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star-half-o"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-        <a class="angled-img" href="#!">
-            <div class="img">
-                <img src="~/dark/assets/images/game-the-witcher-500x375.jpg" alt="">
-            </div>
-            <div class="over-info">
-                <div>
-                    <div>
-                        <h4>The Witcher: Rise of the White Wolf</h4>
-                        <div class="rating">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star-half-o"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-        <a class="angled-img" href="#!">
-            <div class="img">
-                <img src="~/dark/assets/images/game-diablo-iii-500x375.jpg" alt="">
-            </div>
-            <div class="over-info">
-                <div>
-                    <div>
-                        <h4>Diablo III: Reaper of Souls</h4>
-                        <div class="rating">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star-half-o"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-        <a class="angled-img" href="#!">
-            <div class="img">
-                <img src="~/dark/assets/images/game-dragons-dogma-500x375.jpg" alt="">
-            </div>
-            <div class="over-info">
-                <div>
-                    <div>
-                        <h4>Dragons Dogma</h4>
-                        <div class="rating">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star-half-o"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
+        </div><div class="owl-nav"><div class="owl-prev"></div><div class="owl-next"></div></div><div class="owl-dots disabled"></div>
     </div>
     <!-- /Images With Text -->
     <!-- Popular -->
     <h2 class="container h1">Popular <a href="#!" class="btn pull-right">See More</a></h2>
-    <div class="youplay-carousel">
-        <a class="angled-img" href="#!">
-            <div class="img">
-                <img src="~/dark/assets/images/game-kingdoms-of-amalur-reckoning-500x375.jpg" alt="">
-            </div>
-            <div class="over-info">
-                <div>
-                    <div>
-                        <h4>Kingdoms of Amalur: Reckoning</h4>
-                        <div class="rating">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star-half-o"></i>
+    <div class="youplay-carousel owl-carousel owl-loaded owl-drag youplay-carousel-2">
+        <div class="owl-stage-outer">
+            <div class="owl-stage" style="transform: translate3d(-320px, 0px, 0px); transition: 0.25s; width: 3920px; padding-left: 70px; padding-right: 70px;">
+                <div class="owl-item cloned" style="width: 315px;">
+                    <a class="angled-img" href="#!">
+                        <div class="img">
+                            <img src="~/dark/assets/images/game-kingdoms-of-amalur-reckoning-500x375.jpg" alt="">
                         </div>
-                    </div>
+                        <div class="over-info">
+                            <div>
+                                <div>
+                                    <h4>Kingdoms of Amalur: Reckoning</h4>
+                                    <div class="rating">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star-half-o"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div><div class="owl-item cloned" style="width: 315px;">
+                    <a class="angled-img" href="#!">
+                        <div class="img">
+                            <img src="~/dark/assets/images/game-the-witcher-500x375.jpg" alt="">
+                        </div>
+                        <div class="over-info">
+                            <div>
+                                <div>
+                                    <h4>The Witcher: Rise of the White Wolf</h4>
+                                    <div class="rating">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star-half-o"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div><div class="owl-item cloned" style="width: 315px;">
+                    <a class="angled-img" href="#!">
+                        <div class="img">
+                            <img src="~/dark/assets/images/game-diablo-iii-500x375.jpg" alt="">
+                        </div>
+                        <div class="over-info">
+                            <div>
+                                <div>
+                                    <h4>Diablo III: Reaper of Souls</h4>
+                                    <div class="rating">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star-half-o"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div><div class="owl-item cloned" style="width: 315px;">
+                    <a class="angled-img" href="#!">
+                        <div class="img">
+                            <img src="~/dark/assets/images/game-dragons-dogma-500x375.jpg" alt="">
+                        </div>
+                        <div class="over-info">
+                            <div>
+                                <div>
+                                    <h4>Dragons Dogma</h4>
+                                    <div class="rating">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star-half-o"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div><div class="owl-item active" style="width: 315px;">
+                    <a class="angled-img" href="#!">
+                        <div class="img">
+                            <img src="~/dark/assets/images/game-kingdoms-of-amalur-reckoning-500x375.jpg" alt="">
+                        </div>
+                        <div class="over-info">
+                            <div>
+                                <div>
+                                    <h4>Kingdoms of Amalur: Reckoning</h4>
+                                    <div class="rating">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star-half-o"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div><div class="owl-item active" style="width: 315px;">
+                    <a class="angled-img" href="#!">
+                        <div class="img">
+                            <img src="~/dark/assets/images/game-the-witcher-500x375.jpg" alt="">
+                        </div>
+                        <div class="over-info">
+                            <div>
+                                <div>
+                                    <h4>The Witcher: Rise of the White Wolf</h4>
+                                    <div class="rating">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star-half-o"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div><div class="owl-item active" style="width: 315px;">
+                    <a class="angled-img" href="#!">
+                        <div class="img">
+                            <img src="~/dark/assets/images/game-diablo-iii-500x375.jpg" alt="">
+                        </div>
+                        <div class="over-info">
+                            <div>
+                                <div>
+                                    <h4>Diablo III: Reaper of Souls</h4>
+                                    <div class="rating">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star-half-o"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div><div class="owl-item active" style="width: 315px;">
+                    <a class="angled-img" href="#!">
+                        <div class="img">
+                            <img src="~/dark/assets/images/game-dragons-dogma-500x375.jpg" alt="">
+                        </div>
+                        <div class="over-info">
+                            <div>
+                                <div>
+                                    <h4>Dragons Dogma</h4>
+                                    <div class="rating">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star-half-o"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div><div class="owl-item cloned" style="width: 315px;">
+                    <a class="angled-img" href="#!">
+                        <div class="img">
+                            <img src="~/dark/assets/images/game-kingdoms-of-amalur-reckoning-500x375.jpg" alt="">
+                        </div>
+                        <div class="over-info">
+                            <div>
+                                <div>
+                                    <h4>Kingdoms of Amalur: Reckoning</h4>
+                                    <div class="rating">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star-half-o"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div><div class="owl-item cloned" style="width: 315px;">
+                    <a class="angled-img" href="#!">
+                        <div class="img">
+                            <img src="~/dark/assets/images/game-the-witcher-500x375.jpg" alt="">
+                        </div>
+                        <div class="over-info">
+                            <div>
+                                <div>
+                                    <h4>The Witcher: Rise of the White Wolf</h4>
+                                    <div class="rating">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star-half-o"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div><div class="owl-item cloned" style="width: 315px;">
+                    <a class="angled-img" href="#!">
+                        <div class="img">
+                            <img src="~/dark/assets/images/game-diablo-iii-500x375.jpg" alt="">
+                        </div>
+                        <div class="over-info">
+                            <div>
+                                <div>
+                                    <h4>Diablo III: Reaper of Souls</h4>
+                                    <div class="rating">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star-half-o"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div><div class="owl-item cloned" style="width: 315px;">
+                    <a class="angled-img" href="#!">
+                        <div class="img">
+                            <img src="~/dark/assets/images/game-dragons-dogma-500x375.jpg" alt="">
+                        </div>
+                        <div class="over-info">
+                            <div>
+                                <div>
+                                    <h4>Dragons Dogma</h4>
+                                    <div class="rating">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star-half-o"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
                 </div>
             </div>
-        </a>
-        <a class="angled-img" href="#!">
-            <div class="img">
-                <img src="~/dark/assets/images/game-the-witcher-500x375.jpg" alt="">
-            </div>
-            <div class="over-info">
-                <div>
-                    <div>
-                        <h4>The Witcher: Rise of the White Wolf</h4>
-                        <div class="rating">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star-half-o"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-        <a class="angled-img" href="#!">
-            <div class="img">
-                <img src="~/dark/assets/images/game-diablo-iii-500x375.jpg" alt="">
-            </div>
-            <div class="over-info">
-                <div>
-                    <div>
-                        <h4>Diablo III: Reaper of Souls</h4>
-                        <div class="rating">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star-half-o"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-        <a class="angled-img" href="#!">
-            <div class="img">
-                <img src="~/dark/assets/images/game-dragons-dogma-500x375.jpg" alt="">
-            </div>
-            <div class="over-info">
-                <div>
-                    <div>
-                        <h4>Dragons Dogma</h4>
-                        <div class="rating">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star-half-o"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
+        </div><div class="owl-nav disabled"><div class="owl-prev"></div><div class="owl-next"></div></div><div class="owl-dots disabled"></div>
     </div>
     <!-- /Popular -->
-    <!-- Specials -->
-    <h2 class="container h1">Specials <a href="#!" class="btn pull-right">See More</a></h2>
-    <div class="youplay-carousel">
-        <a class="angled-img" href="#!">
-            <div class="img img-offset">
-                <img src="~/dark/assets/images/game-dark-souls-ii-500x375.jpg" alt="">
-                <div class="badge bg-default">
-                    -20%
-                </div>
-            </div>
-            <div class="bottom-info">
-                <h4>Dark Souls II</h4>
-                <div class="row">
-                    <div class="col-xs-6">
-                        <div class="rating">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star-half-o"></i>
+    <!-- Sales -->
+    <h2 class="container h1">Special Deals <a href="#!" class="btn pull-right">See More</a></h2>
+    <div class="youplay-carousel owl-carousel owl-loaded owl-drag youplay-carousel-3">
+        <div class="owl-stage-outer">
+            <div class="owl-stage" style="transform: translate3d(-320px, 0px, 0px); transition: 0.25s; width: 3920px; padding-left: 70px; padding-right: 70px;">
+                
+                @foreach (var item in Model)
+                {
+                    if (item.Discount > 0)
+                    {
+                        <div class="owl-item cloned" style="width: 315px;">
+                            <a class="angled-img" href="#!">
+                                <div class="img img-offset">
+                                    <img src="@item.GameImages[0].ImageUrl" alt="">
+                                    <div class="badge bg-default">
+                                        -@item.Discount %
+                                    </div>
+                                </div>
+                                <div class="bottom-info">
+                                    <h4>@item.Title</h4>
+                                    <div class="row">
+                                        <div class="col-xs-6">
+                                            <div class="rating">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star-half-o"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-6">
+                                            <div class="price">
+                                                $@item.SalePrice <sup><del>$@item.CostPrice</del></sup>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
                         </div>
-                    </div>
-                    <div class="col-xs-6">
-                        <div class="price">
-                            $39.99 <sup><del>$49.99</del></sup>
-                        </div>
-                    </div>
-                </div>
+                    }
+                }
+                
             </div>
-        </a>
-        <a class="angled-img" href="#!">
-            <div class="img img-offset">
-                <img src="~/dark/assets/images/game-lords-of-the-fallen-500x375.jpg" alt="">
-                <div class="badge bg-default">
-                    -25%
-                </div>
-            </div>
-            <div class="bottom-info">
-                <h4>Lords of the Fallen</h4>
-                <div class="row">
-                    <div class="col-xs-6">
-                        <div class="rating">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star-half-o"></i>
-                            <i class="fa fa-star-o"></i>
-                        </div>
-                    </div>
-                    <div class="col-xs-6">
-                        <div class="price">
-                            $26.25 <sup><del>$35.00</del></sup>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-        <a class="angled-img" href="#!">
-            <div class="img img-offset">
-                <img src="~/dark/assets/images/game-dragons-dogma-500x375.jpg" alt="">
-                <div class="badge bg-default">
-                    -30%
-                </div>
-            </div>
-            <div class="bottom-info">
-                <h4>Dragons Dogma</h4>
-                <div class="row">
-                    <div class="col-xs-6">
-                        <div class="rating">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star-half-o"></i>
-                        </div>
-                    </div>
-                    <div class="col-xs-6">
-                        <div class="price">
-                            $34.99 <sup><del>$49.99</del></sup>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-        <a class="angled-img" href="#!">
-            <div class="img img-offset">
-                <img src="~/dark/assets/images/game-soul-sacrifice-500x375.jpg" alt="">
-                <div class="badge bg-success">
-                    -100%
-                </div>
-            </div>
-            <div class="bottom-info">
-                <h4>Soul Sacrifice</h4>
-                <div class="row">
-                    <div class="col-xs-6">
-                        <div class="rating">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star-half-o"></i>
-                        </div>
-                    </div>
-                    <div class="col-xs-6">
-                        <div class="price">
-                            <span class="text-success">FREE!</span>  <sup><del>$29.99</del></sup>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
+        </div><div class="owl-nav disabled"><div class="owl-prev"></div><div class="owl-next"></div></div><div class="owl-dots disabled"></div>
     </div>
     <!-- /Specials -->
     <!-- Preorder -->
@@ -515,7 +476,8 @@
     <!-- /Latest News -->
     <!-- Partners -->
     <section class="youplay-banner youplay-banner-parallax small mt-80">
-        <div class="image" style="background-image:url('@Url.Content("~/dark/assets/images/banner-bg.jpg")')">
+        <div class="image" style="background-image: none; background-attachment: scroll; background-size: auto;" data-jarallax-original-styles="background-image: url('@Url.Content("~/dark/assets/images/banner-bg.jpg")');">
+            <div id="jarallax-container-1" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; pointer-events: none; visibility: hidden; z-index: -100;"><div style="background-position: 50% 50%; background-size: 100%; background-repeat: no-repeat; background-image: url('@Url.Content("~/dark/assets/images/banner-bg.jpg")'); top: 0px; left: 0px; width: 1399.8px; height: 644.908px; overflow: hidden; pointer-events: none; margin-top: -154.954px; visibility: visible; transform: translate3d(0px, -29.22px, 0px);"></div></div>
         </div>
 
         <div class="info align-center">
@@ -524,47 +486,132 @@
 
                 <div class="row">
                     <div class="col-md-10 col-md-offset-1">
-                        <div class="owl-carousel" data-autoplay="6000">
-                            <div class="item">
-                                <a href="#">
-                                    <img src="~/dark/assets/images/partner-logo-1.png" alt="">
-                                </a>
-                            </div>
-                            <div class="item">
-                                <a href="#">
-                                    <img src="~/dark/assets/images/partner-logo-2.png" alt="">
-                                </a>
-                            </div>
-                            <div class="item">
-                                <a href="#">
-                                    <img src="~/dark/assets/images/partner-logo-3.png" alt="">
-                                </a>
-                            </div>
-                            <div class="item">
-                                <a href="#">
-                                    <img src="~/dark/assets/images/partner-logo-4.png" alt="">
-                                </a>
-                            </div>
-                            <div class="item">
-                                <a href="#">
-                                    <img src="~/dark/assets/images/partner-logo-5.png" alt="">
-                                </a>
-                            </div>
-                            <div class="item">
-                                <a href="#">
-                                    <img src="~/dark/assets/images/partner-logo-6.png" alt="">
-                                </a>
-                            </div>
-                            <div class="item">
-                                <a href="#">
-                                    <img src="~/dark/assets/images/partner-logo-7.png" alt="">
-                                </a>
-                            </div>
-                            <div class="item">
-                                <a href="#">
-                                    <img src="~/dark/assets/images/partner-logo-8.png" alt="">
-                                </a>
-                            </div>
+                        <div class="owl-carousel owl-loaded owl-drag youplay-carousel-0" data-autoplay="6000">
+                            <div class="owl-stage-outer">
+                                <div class="owl-stage" style="transform: translate3d(-1936px, 0px, 0px); transition: 0.6s; width: 3874px;">
+                                    <div class="owl-item cloned" style="width: 193.667px;">
+                                        <div class="item">
+                                            <a href="#">
+                                                <img src="~/dark/assets/images/partner-logo-3.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div><div class="owl-item cloned" style="width: 193.667px;">
+                                        <div class="item">
+                                            <a href="#">
+                                                <img src="~/dark/assets/images/partner-logo-4.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div><div class="owl-item cloned" style="width: 193.667px;">
+                                        <div class="item">
+                                            <a href="#">
+                                                <img src="~/dark/assets/images/partner-logo-5.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div><div class="owl-item cloned" style="width: 193.667px;">
+                                        <div class="item">
+                                            <a href="#">
+                                                <img src="~/dark/assets/images/partner-logo-6.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div><div class="owl-item cloned" style="width: 193.667px;">
+                                        <div class="item">
+                                            <a href="#">
+                                                <img src="~/dark/assets/images/partner-logo-7.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div><div class="owl-item cloned" style="width: 193.667px;">
+                                        <div class="item">
+                                            <a href="#">
+                                                <img src="~/dark/assets/images/partner-logo-8.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div><div class="owl-item" style="width: 193.667px;">
+                                        <div class="item">
+                                            <a href="#">
+                                                <img src="~/dark/assets/images/partner-logo-1.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div><div class="owl-item" style="width: 193.667px;">
+                                        <div class="item">
+                                            <a href="#">
+                                                <img src="~/dark/assets/images/partner-logo-2.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div><div class="owl-item" style="width: 193.667px;">
+                                        <div class="item">
+                                            <a href="#">
+                                                <img src="~/dark/assets/images/partner-logo-3.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div><div class="owl-item" style="width: 193.667px;">
+                                        <div class="item">
+                                            <a href="#">
+                                                <img src="~/dark/assets/images/partner-logo-4.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div><div class="owl-item active" style="width: 193.667px;">
+                                        <div class="item">
+                                            <a href="#">
+                                                <img src="~/dark/assets/images/partner-logo-5.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div><div class="owl-item active" style="width: 193.667px;">
+                                        <div class="item">
+                                            <a href="#">
+                                                <img src="~/dark/assets/images/partner-logo-6.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div><div class="owl-item active" style="width: 193.667px;">
+                                        <div class="item">
+                                            <a href="#">
+                                                <img src="~/dark/assets/images/partner-logo-7.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div><div class="owl-item active" style="width: 193.667px;">
+                                        <div class="item">
+                                            <a href="#">
+                                                <img src="~/dark/assets/images/partner-logo-8.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div><div class="owl-item cloned active" style="width: 193.667px;">
+                                        <div class="item">
+                                            <a href="#">
+                                                <img src="~/dark/assets/images/partner-logo-1.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div><div class="owl-item cloned active" style="width: 193.667px;">
+                                        <div class="item">
+                                            <a href="#">
+                                                <img src="~/dark/assets/images/partner-logo-2.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div><div class="owl-item cloned" style="width: 193.667px;">
+                                        <div class="item">
+                                            <a href="#">
+                                                <img src="~/dark/assets/images/partner-logo-3.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div><div class="owl-item cloned" style="width: 193.667px;">
+                                        <div class="item">
+                                            <a href="#">
+                                                <img src="~/dark/assets/images/partner-logo-4.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div><div class="owl-item cloned" style="width: 193.667px;">
+                                        <div class="item">
+                                            <a href="#">
+                                                <img src="~/dark/assets/images/partner-logo-5.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div><div class="owl-item cloned" style="width: 193.667px;">
+                                        <div class="item">
+                                            <a href="#">
+                                                <img src="~/dark/assets/images/partner-logo-6.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><div class="owl-nav disabled"><div class="owl-prev">prev</div><div class="owl-next">next</div></div><div class="owl-dots"><div class="owl-dot active"><span></span></div><div class="owl-dot"><span></span></div></div>
                         </div>
                     </div>
                 </div>
@@ -577,7 +624,7 @@
     <section class="youplay-features container">
         <div class="col-md-3 col-sm-6">
             <a class="feature angled-bg" href="#">
-                <i class="fa fa-cc-visa"></i>
+                <i class="fa-brands fa-cc-visa"></i>
                 <h3>Payment</h3>
                 <small>More than 10 payment systems</small>
             </a>
@@ -591,7 +638,7 @@
         </div>
         <div class="col-md-3 col-sm-6">
             <div class="feature angled-bg">
-                <i class="fa fa-money"></i>
+                <i class="fa-solid fa-coins"></i>
                 <h3>Cheap</h3>
                 <small>Lowest prices on the Internet</small>
             </div>
