@@ -8,7 +8,6 @@ namespace YouPlay.Business.DTOs.GameDTOs
         string Description,
         decimal Rating,
         decimal CostPrice,
-        decimal SalePrice,
         int Discount,
         string Genre,
         DateTime ReleaseDate,
@@ -30,14 +29,6 @@ namespace YouPlay.Business.DTOs.GameDTOs
                     .NotEmpty()
                     .WithMessage("Description is required.")
                     .MaximumLength(1000);
-
-                RuleFor(x => x.CostPrice)
-                    .GreaterThanOrEqualTo(0)
-                    .WithMessage("Cost price must be at least 0.");
-
-                RuleFor(x => x.SalePrice)
-                    .GreaterThanOrEqualTo(0)
-                    .WithMessage("Sale price must be at least 0.");
 
                 RuleFor(x => x.Discount)
                     .InclusiveBetween(0, 100)

@@ -31,9 +31,8 @@ namespace YouPlay.Business.Services.Implementations
                 Description = dto.Description,
                 Rating = dto.Rating,
                 CostPrice = dto.CostPrice,
-                SalePrice = dto.SalePrice,
-                Discount = dto.Discount,
                 Genre = dto.Genre,
+                Discount = dto.Discount,
                 Developer = dto.Developer,
                 ReleaseDate = dto.ReleaseDate,
                 TrailerUrl = dto.TrailerUrl,
@@ -51,7 +50,7 @@ namespace YouPlay.Business.Services.Implementations
 
                 game.GameImages.Add(new GameImage
                 {
-                    ImageUrl = fileName,
+                    ImageUrl = "https://localhost:7283/uploads/" + fileName,
                     CreatedDate = DateTime.Now,
                     ModifiedDate = DateTime.Now,
                     IsDeleted = false
@@ -75,7 +74,7 @@ namespace YouPlay.Business.Services.Implementations
                   Developer: game.Developer,
                   GameImages: game.GameImages.Select(img => new GameImageGetDto(
                       Id: img.Id,
-                      ImageUrl: img.ImageUrl
+                      ImageUrl: "https://localhost:7283/uploads/" + img.ImageUrl
                   )).ToList(),
                   //Comments: game.Comments.Select(com => new CommentGetDto(
                   //    Id: com.Id,
@@ -242,7 +241,6 @@ namespace YouPlay.Business.Services.Implementations
             game.Description = dto.Description;
             game.Rating = dto.Rating;
             game.CostPrice = dto.CostPrice;
-            game.SalePrice = dto.SalePrice;
             game.Discount = dto.Discount;
             game.ReleaseDate = dto.ReleaseDate;
             game.Genre = dto.Genre;
@@ -268,7 +266,7 @@ namespace YouPlay.Business.Services.Implementations
 
                     game.GameImages.Add(new GameImage
                     {
-                        ImageUrl = fileName,
+                        ImageUrl = "https://localhost:7283/uploads/" + fileName,
                         CreatedDate = DateTime.Now,
                         ModifiedDate = DateTime.Now,
                         IsDeleted = false

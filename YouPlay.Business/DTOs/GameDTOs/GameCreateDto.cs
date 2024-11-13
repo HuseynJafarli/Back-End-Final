@@ -8,7 +8,6 @@ namespace YouPlay.Business.DTOs.GameDTOs
         string Description,
         decimal Rating,
         decimal CostPrice,
-        decimal SalePrice,
         int Discount,
         string Genre,
         DateTime ReleaseDate,
@@ -30,14 +29,6 @@ namespace YouPlay.Business.DTOs.GameDTOs
             RuleFor(g => g.Description)
                 .MaximumLength(1000)
                 .WithMessage("Description must not exceed 1000 characters.");
-
-            RuleFor(g => g.CostPrice)
-                .GreaterThan(0)
-                .WithMessage("Cost Price must be greater than zero.");
-
-            RuleFor(g => g.SalePrice)
-                .GreaterThan(0)
-                .WithMessage("Sale Price must be greater than zero.");
 
             RuleFor(g => g.Discount)
                 .InclusiveBetween(0, 100)

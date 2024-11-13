@@ -1,0 +1,377 @@
+﻿@model List<GameGetVM>
+
+@{
+
+    ViewData["Title"] = "Store Page";
+    
+}
+<style>
+    .carousel-inner {
+
+        width: 100%;
+        height: 720px; 
+        overflow: clip;
+    }
+
+    .carousel-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; 
+    }
+
+    .angled-img .img img {
+        width: 100%; 
+        height: 150px; 
+        object-fit: cover; 
+    }
+</style>
+
+<!-- Main Content -->
+<section class="content-wrap">
+
+    <!-- Slider Revolution-->
+    <!--
+        Use classes:
+        rs-fullscreen
+    -->
+    <div class="tp-banner-container rs-youplay">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                @{
+                    var filteredGames = Model
+                    .Where(g => g.Rating > 8)
+                    .OrderByDescending(g => g.ReleaseDate)
+                    .Take(3)
+                    .ToList();
+
+                    for (int i = 0; i < filteredGames.Count; i++)
+                    {
+                        <li data-target="#carousel-example-generic" data-slide-to="@i" class="@(i == 0 ? "active" : "")"></li>
+                    }
+                }
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                @{
+                    for (int i = 0; i < filteredGames.Count; i++)
+                    {
+                        var game = filteredGames[i];
+                        <div class="item @(i == 0 ? "active" : "")">
+                            <img src="@game.GameImages[1].ImageUrl" alt="@game.Title" class="carousel-image">
+                            <div class="carousel-caption">
+                                <a class="btn btn-md" href="#!">Purchase</a>
+                            </div>
+                        </div>
+                    }
+                }
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- /Slider Revolution-->
+
+    <div class="container youplay-store">
+        <!-- Games List -->
+        <div class="col-md-9 col-md-push-3 isotope">
+            <!-- Sort Categories -->
+            <ul class="pagination isotope-options">
+                <li data-filter="all" class="active">
+                    <span>All</span>
+                </li>
+                <li data-filter="free">
+                    <span>Free</span>
+                </li>
+                <li data-filter="popular">
+                    <span>Popular</span>
+                </li>
+                <li data-filter="specials">
+                    <span>Specials</span>
+                </li>
+            </ul>
+            <!-- /Sort Categories -->
+
+            <div class="isotope-list">
+
+                @foreach (var item in Model)
+                {
+                    List<string> dataf = [];
+                    
+                    @if (item.Discount == 100 || item.CostPrice == 0)
+                    {
+                        dataf.Add("free");
+                    }
+                    @if ((double)item.Rating > 7.5 && item.ReleaseDate > DateTime.Parse("2016-01-01") && item.SalePrice < 40)
+                    {
+                        dataf.Add("specials");
+                    }
+                    @if ((double)item.Rating > 7.5 && item.ReleaseDate > DateTime.Parse("2022-01-01"))
+                    {
+                        dataf.Add("popular");
+                    }
+                    string dataFilters = string.Join(",", dataf);
+
+
+                    <a href="#!" class="item angled-bg" data-filters="@dataFilters">
+                        <div class="row">
+                            <div class="col-lg-2 col-md-3 col-xs-4">
+                                <div class="angled-img">
+                                    <div class="img">
+                                        <img src="@item.GameImages[0].ImageUrl" alt="">
+                                        @if (item.Discount > 0 && item.Discount < 100)
+                                        {
+                                            <div class="badge show bg-default">-@item.Discount%</div>
+                                        }
+                                        else if (item.Discount == 100 || item.CostPrice == 0)
+                                        {
+                                            <div class="badge show bg-success">-100%</div>
+                                        }
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-10 col-md-9 col-xs-8">
+                                <div class="row">
+                                    <div class="col-xs-6 col-md-9">
+                                        <h4>@item.Title</h4>
+                                        <div class="rating">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-half-o"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-md-3 align-right">
+                                        <div class="price">
+                                            $@item.SalePrice
+                                            @if (item.Discount > 0 || item.CostPrice == 0)
+                                            {
+                                                <sup><del>$@item.CostPrice</del></sup>
+                                            }
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                }
+             
+            </div>
+
+        </div>
+        <!-- /Games List -->
+        <!-- Left Side -->
+        <div class="col-md-3 col-md-pull-9">
+
+            <!-- Side Search -->
+            <div class="side-block">
+                <p>Search by Games:</p>
+                <form action="http://html.nkdev.info/youplay/dark/search.html">
+                    <div class="youplay-input">
+                        <input type="text" name="search" placeholder="enter search term">
+                    </div>
+                </form>
+            </div>
+            <!-- /Side Search -->
+            <!-- Side Categories -->
+            <div class="side-block">
+                <h4 class="block-title">Categories</h4>
+                <ul class="block-content">
+                    <li>
+                        <a href="#!">All</a>
+                    </li>
+                    <li>
+                        <a href="#!">Action</a>
+                    </li>
+                    <li>
+                        <a href="#!">Adventure</a>
+                    </li>
+                    <li>
+                        <a href="#!">Casual</a>
+                    </li>
+                    <li>
+                        <a href="#!">Indie</a>
+                    </li>
+                    <li>
+                        <a href="#!">Racing</a>
+                    </li>
+                    <li>
+                        <a href="#!">RPG</a>
+                    </li>
+                    <li>
+                        <a href="#!">Simulation</a>
+                    </li>
+                    <li>
+                        <a href="#!">Strategy</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /Side Categories -->
+            <!-- Side Popular News -->
+            <div class="side-block">
+                <h4 class="block-title">Popular Games</h4>
+                <div class="block-content p-0">
+                    <!-- Single News Block -->
+                    <div class="row youplay-side-news">
+                        <div class="col-xs-3 col-md-4">
+                            <a href="store-product-1.html" class="angled-img">
+                                <div class="img">
+                                    <img src="~/dark/assets/images/game-bloodborne-500x375.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-xs-9 col-md-8">
+                            <h4 class="ellipsis"><a href="store-product-1.html" title="Bloodborne">Bloodborne</a></h4>
+                            <span class="price">$50.00</span>
+                        </div>
+                    </div>
+                    <!-- /Single News Block -->
+                    <!-- Single News Block -->
+                    <div class="row youplay-side-news">
+                        <div class="col-xs-3 col-md-4">
+                            <a href="#!" class="angled-img">
+                                <div class="img">
+                                    <img src="~/dark/assets/images/game-dark-souls-ii-500x375.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-xs-9 col-md-8">
+                            <h4 class="ellipsis"><a href="#!" title="Dark Souls II">Dark Souls II</a></h4>
+                            <span class="price">$39.99 <sup><del>$49.99</del></sup></span>
+                        </div>
+                    </div>
+                    <!-- /Single News Block -->
+                    <!-- Single News Block -->
+                    <div class="row youplay-side-news">
+                        <div class="col-xs-3 col-md-4">
+                            <a href="#!" class="angled-img">
+                                <div class="img">
+                                    <img src="~/dark/assets/images/game-kingdoms-of-amalur-reckoning-500x375.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-xs-9 col-md-8">
+                            <h4 class="ellipsis"><a href="#!" title="Kingdoms of Amalur">Kingdoms of Amalur</a></h4>
+                            <span class="price">$20.00</span>
+                        </div>
+                    </div>
+                    <!-- /Single News Block -->
+                    <!-- Single News Block -->
+                    <div class="row youplay-side-news">
+                        <div class="col-xs-3 col-md-4">
+                            <a href="#!" class="angled-img">
+                                <div class="img">
+                                    <img src="~/dark/assets/images/game-diablo-iii-500x375.jpg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-xs-9 col-md-8">
+                            <h4 class="ellipsis"><a href="#!" title="Let's Grind Diablo III">Diablo III</a></h4>
+                            <span class="price">$10.00</span>
+                        </div>
+                    </div>
+                    <!-- /Single News Block -->
+                </div>
+            </div>
+            <!-- /Side Popular News -->
+            <!-- Instagram -->
+            <div class="side-block">
+                <h4 class="block-title">Instagram</h4>
+                <div class="youplay-instagram row small-gap" data-instagram-user-id="2133360819"></div>
+            </div>
+            <!-- /Instagram -->
+
+        </div>
+        <!-- /Left Side -->
+    </div>
+
+    <!-- Footer -->
+    <footer class="youplay-footer-parallax">
+        <div class="wrapper" style="background-image: url('assets/images/footer-bg.jpg')">
+
+            <!-- Social Buttons -->
+            <div class="social">
+                <div class="container">
+                    <h3>Connect socially with <strong>youplay</strong></h3>
+
+                    <div class="social-icons">
+                        <div class="social-icon">
+                            <a href="#!">
+                                <i class="fa-brands fa-square-facebook"></i>
+                                <span>Like on Facebook</span>
+                            </a>
+                        </div>
+                        <div class="social-icon">
+                            <a href="#!">
+                                <i class="fa-brands fa-square-x-twitter"></i>
+                                <span>Follow on X</span>
+                            </a>
+                        </div>
+                        <div class="social-icon">
+                            <a href="#!">
+                                <i class="fa-brands fa-twitch"></i>
+                                <span>Watch on Twitch</span>
+                            </a>
+                        </div>
+                        <div class="social-icon">
+                            <a href="#!">
+                                <i class="fa-brands fa-square-youtube"></i>
+                                <span>Watch on Youtube</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /Social Buttons -->
+            <!-- Copyright -->
+            <div class="copyright">
+                <div class="container">
+                    <strong>HC</strong> &copy; 2024 All rights reserved
+                </div>
+            </div>
+            <!-- /Copyright -->
+
+        </div>
+    </footer>
+    <!-- /Footer -->
+
+
+</section>
+<!-- /Main Content -->
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const filterButtons = document.querySelectorAll(".pagination li");
+        const gameItems = document.querySelectorAll(".isotope-list .item");
+
+        filterButtons.forEach(button => {
+            button.addEventListener("click", function () {
+                filterButtons.forEach(btn => btn.classList.remove("active"));
+                button.classList.add("active");
+
+                const filter = button.getAttribute("data-filter");
+
+                gameItems.forEach(item => {
+                    const filters = item.getAttribute("data-filters").split(',');
+
+                    if (filter === "all" || filters.includes(filter)) {
+                        item.style.display = "block"; 
+                    } else {
+                        item.style.display = "none"; 
+                    }
+                });
+            });
+        });
+    });
+</script>

@@ -21,10 +21,6 @@ namespace YouPlay.Data.Configurations
                 .HasColumnType("decimal(18,2)")
                 .IsRequired();
 
-            builder.Property(g => g.SalePrice)
-                .HasColumnType("decimal(18,2)")
-                .IsRequired();
-
             builder.Property(g => g.Discount)
                 .IsRequired()
                 .HasDefaultValue(0);

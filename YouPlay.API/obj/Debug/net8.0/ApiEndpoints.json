@@ -100,11 +100,6 @@
         "IsRequired": false
       },
       {
-        "Name": "SalePrice",
-        "Type": "System.Decimal",
-        "IsRequired": false
-      },
-      {
         "Name": "Discount",
         "Type": "System.Int32",
         "IsRequired": false
@@ -178,11 +173,6 @@
       },
       {
         "Name": "CostPrice",
-        "Type": "System.Decimal",
-        "IsRequired": false
-      },
-      {
-        "Name": "SalePrice",
         "Type": "System.Decimal",
         "IsRequired": false
       },

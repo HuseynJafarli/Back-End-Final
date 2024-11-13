@@ -29,11 +29,11 @@
     <!-- Images With Text -->
     <div class="youplay-carousel owl-carousel owl-loaded owl-drag youplay-carousel-1" data-autoplay="5000">
         <div class="owl-stage-outer">
-            <div class="owl-stage" style="transform: translate3d(-320px, 0px, 0px); transition: 0.25s; width: 6125px; padding-left: 70px; padding-right: 70px;">
+            <div class="owl-stage" style="transform: translate3d(-300px, 0px, 0px); transition: 0.25s; width: 6125px; padding-left: 70px; padding-right: 70px;">
                 
                 @foreach (var item in Model)
                 {
-                    <div class="owl-item cloned" style="width: 315px;">
+                    <div class="owl-item cloned" style="width: 315px; height: 237px">
                         <a class="angled-img" href="#!">
                             <div class="img">
                                 <img src="@item.GameImages[0].ImageUrl" alt="">
@@ -64,7 +64,7 @@
     <h2 class="container h1">Popular <a href="#!" class="btn pull-right">See More</a></h2>
     <div class="youplay-carousel owl-carousel owl-loaded owl-drag youplay-carousel-2">
         <div class="owl-stage-outer">
-            <div class="owl-stage" style="transform: translate3d(-320px, 0px, 0px); transition: 0.25s; width: 3920px; padding-left: 70px; padding-right: 70px;">
+            <div class="owl-stage" style="transform: translate3d(-300px, 0px, 0px); transition: 0.25s; width: 3920px; padding-left: 70px; padding-right: 70px;">
                 <div class="owl-item cloned" style="width: 315px;">
                     <a class="angled-img" href="#!">
                         <div class="img">
@@ -314,7 +314,7 @@
     <h2 class="container h1">Special Deals <a href="#!" class="btn pull-right">See More</a></h2>
     <div class="youplay-carousel owl-carousel owl-loaded owl-drag youplay-carousel-3">
         <div class="owl-stage-outer">
-            <div class="owl-stage" style="transform: translate3d(-320px, 0px, 0px); transition: 0.25s; width: 3920px; padding-left: 70px; padding-right: 70px;">
+            <div class="owl-stage" style="transform: translate3d(-300px, 0px, 0px); transition: 0.25s; width: 3920px; padding-left: 70px; padding-right: 70px;">
                 
                 @foreach (var item in Model)
                 {
@@ -342,7 +342,8 @@
                                         </div>
                                         <div class="col-xs-6">
                                             <div class="price">
-                                                $@item.SalePrice <sup><del>$@item.CostPrice</del></sup>
+                                                $@item.SalePrice
+                                                <sup><del>$@item.CostPrice</del></sup>
                                             </div>
                                         </div>
                                     </div>
@@ -664,25 +665,25 @@
                     <div class="social-icons">
                         <div class="social-icon">
                             <a href="#!">
-                                <i class="fa fa-facebook-square"></i>
+                                <i class="fa-brands fa-facebook"></i>
                                 <span>Like on Facebook</span>
                             </a>
                         </div>
                         <div class="social-icon">
                             <a href="#!">
-                                <i class="fa fa-twitter-square"></i>
-                                <span>Follow on Twitter</span>
+                                <i class="fa-brands fa-twitter"></i>
+                                <span>Follow on X</span>
                             </a>
                         </div>
                         <div class="social-icon">
                             <a href="#!">
-                                <i class="fa fa-twitch"></i>
-                                <span>Watch on Twitch</span>
+                                <i class="fa-brands fa-discord"></i>
+                                <span>Join on Discord</span>
                             </a>
                         </div>
                         <div class="social-icon">
                             <a href="#!">
-                                <i class="fa fa-youtube-square"></i>
+                                <i class="fa-brands fa-youtube"></i>
                                 <span>Watch on Youtube</span>
                             </a>
                         </div>
