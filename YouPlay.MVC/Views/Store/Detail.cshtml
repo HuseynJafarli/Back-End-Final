@@ -1,0 +1,398 @@
+﻿@model GameGetVM
+
+<style>
+
+    .youplay-carousel .owl-item {
+        width: 315px;
+        height: 237px;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .angled-img {
+        clip-path: polygon(10% 0, 100% 0, 90% 100%, 0% 100%);
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .angled-img .img img{
+        height: 315px;
+        object-fit: cover;
+        }
+
+
+</style>
+<!-- Main Content -->
+<section class="content-wrap">
+
+    <!-- Banner -->
+    <div class="youplay-banner youplay-banner-parallax banner-top">
+        <div class="image" style="background-image: url('@Model.GameImages[1].ImageUrl')">
+        </div>
+
+        <div class="info">
+            <div>
+                <div class="container">
+                    <h1>@Model.Title</h1>
+                    <br>
+                    <a href="#!" class="btn btn-lg" title="Add to Cart">$@Model.SalePrice</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Banner -->
+    <!-- Images With Text -->
+    <div class="youplay-carousel owl-carousel owl-loaded owl-drag youplay-carousel-1" data-autoplay="5000" bis_skin_checked="1">
+        <div class="owl-stage-outer" bis_skin_checked="1">
+            <div class="owl-stage" style="transform: translate3d(-50px, 0px, 0px); transition: 0.6s; width: 6125px; padding-left: 70px; padding-right: 70px;" bis_skin_checked="1">
+
+                <div class="owl-item active" bis_skin_checked="1" style="width: 315px;">
+                    <a class="angled-img" href="#!">
+                        <div class="img" bis_skin_checked="1">
+                            <iframe width="315" height="237" src="@Model.TrailerUrl" title="a" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </a>
+                </div>
+                @foreach (var item in Model.GameImages)
+                {
+                    <div class="owl-item active" bis_skin_checked="1" style="width: 315px;">
+                        <a class="angled-img" href="#!">
+                            <div class="img" bis_skin_checked="1">
+                                <img src="@item.ImageUrl" alt="..." />
+                            </div>
+                        </a>
+                    </div>
+                }
+
+            </div>
+        </div><div class="owl-nav" bis_skin_checked="1"><div class="owl-prev" bis_skin_checked="1"></div><div class="owl-next" bis_skin_checked="1"></div></div><div class="owl-dots disabled" bis_skin_checked="1"></div>
+    </div>
+    <!-- /Images With Text -->
+
+
+    <div class="container youplay-store">
+
+        <div class="col-md-9">
+            <!-- Post Info -->
+            <article>
+
+                <!-- Description -->
+                <h2 class="mt-0">Description</h2>
+                <div class="description">
+                    <p>
+                        @Model.Description
+                    </p>
+                </div>
+                <!-- /Description -->
+                <!-- Post Share -->
+                
+                <!-- /Post Share -->
+            </article>
+            <!-- /Post Info -->
+            <!-- Information -->
+            <div class="requirements-block">
+                <h2>System Requirements</h2>
+                <div>
+                    <strong>OS:</strong> Windows 7
+                </div>
+                <div>
+                    <strong>Processor:</strong> Dual core from Intel or AMD at 2.8 GHz
+                </div>
+                <div>
+                    <strong>Memory:</strong> 4 GB RAM
+                </div>
+                <div>
+                    <strong>Graphics:</strong> nVidia GeForce 8600/9600GT, ATI/AMD Radeon HD2600/3600
+                </div>
+                <div>
+                    <strong>DirectX:</strong> Version 9.0c
+                </div>
+                <div>
+                    <strong>Network:</strong> Broadband Internet connection
+                </div>
+                <div>
+                    <strong>Hard Drive:</strong> 8 GB available space
+                </div>
+                <div>
+                    <strong>Sound Card:</strong> DirectX Compatible
+                </div>
+            </div>
+            <!-- /Information -->
+            <!-- Reviews -->
+            <div class="reviews-block mb-0">
+                <h2>Reviews <small>(3)</small></h2>
+
+                <!-- Reviews List -->
+                <ul class="reviews-list">
+                    <!-- Kristen Bradley review -->
+                    <li>
+                        <article>
+                            <div class="review-avatar pull-left">
+                                <img src="~/dark/assets/images/avatar-user-1.png" alt="">
+                            </div>
+                            <div class="review-cont clearfix">
+                                <div class="rating pull-right">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                                <a class="review-author h4" href="#!">Kristen Bradley</a>
+                                <div class="date"><i class="fa fa-calendar"></i> April 3, 2015</div>
+                                <div class="review-text">
+                                    <p>
+                                        Quod satis pecuniae sempiternum. Ut sciat oportet motum. Nunquam invenies eum. Hic de tabula. Ego vivere, ut debui, et nunc fiant. Istuc quod opus non est. Lorem ipsum occurrebat pragmaticam semper ut, si quis ita velim tibi bene recognoscere. Quorum
+                                        duo te mihi videtur.
+                                    </p>
+                                    <p>
+                                        Mauris a nunc occideritis me rectum. Videtur quod Ive facillimum, qui fecit vos. Potes me interficere, sine testibus et tunc manere in pauci weeks vel mensis vestigia Isai Pinkman et vos quoque illum occidere. Exercitium inutili option A. Videtur mihi
+                                        quod autem est.
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+                    </li>
+                    <!-- /Kristen Bradley review -->
+                    <!-- Clyde Fields review -->
+                    <li>
+                        <article>
+                            <div class="review-avatar pull-left">
+                                <img src="~/dark/assets/images/avatar-user-4.png" alt="">
+                            </div>
+                            <div class="review-cont clearfix">
+                                <div class="rating pull-right">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div>
+                                <a class="review-author h4" href="#!">Clyde Fields</a>
+                                <div class="date"><i class="fa fa-calendar"></i> March 13, 2015</div>
+                                <div class="review-text">
+                                    <p>
+                                        Uno ictu cruentus ille utrimque - statuit American Mexicanus gubernationes contra CONEXUS, et amputavit auriculam eius generis copia methamphetamine ad Africum. Quo facto suo, si huius huc termini velit vitae ipsum. Praemia essent ... ingentibus.
+                                    </p>
+                                    <p>
+                                        Sumus tam adultis. Non est enim tibi nescio fingunt. Confusio esse cupio. Scio te debeo meae. At etiam, ut caveant ab his eu. In tuo positum, idem fecissem. Constitutione, quam molesta est mihi tres menses nescio quid de contractu fines nostros. Scis
+                                        quare hoc facere. Lorem satis quaesitum.
+                                    </p>
+                                    <p>
+                                        Loquélæ. Brevis oratio. Hodie particeps tua perdideris. Quid sui nominis - Emilio? Emilio gradiens ad carcerem. Tulitque omnem pecuniam tuam in DEA tuus Lab. Vos got nihil. Quadratum unum. Et ego agnosco rem, nisi te scire elit. Cogito ... maybe vos possem
+                                        socium ascendit.
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+                    </li>
+                    <!-- /Clyde Fields review -->
+                    <!-- Scott Sutton review -->
+                    <li>
+                        <article>
+                            <div class="review-avatar pull-left">
+                                <img src="~/dark/assets/images/avatar.png" alt="">
+                            </div>
+                            <div class="review-cont clearfix">
+                                <div class="rating pull-right">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div>
+                                <a class="review-author h4" href="#!">Scott Sutton</a>
+                                <div class="date"><i class="fa fa-calendar"></i> March 2, 2015</div>
+                                <div class="review-text">
+                                    Perdet eam batch nostri.
+                                </div>
+                            </div>
+                        </article>
+                    </li>
+                    <!-- /Scott Sutton review -->
+                </ul>
+                <!-- /Reviews List -->
+                <!-- Review Form -->
+                <h2>Add a Review</h2>
+                <form action="#!" class="review-form mb-0">
+                    <div class="review-cont clearfix">
+                        <div class="youplay-input">
+                            <input type="text" name="username" placeholder="Your Name *">
+                        </div>
+                        <div class="youplay-input">
+                            <input type="email" name="email" placeholder="Your Email *">
+                        </div>
+                        <div class="youplay-textarea">
+                            <textarea name="message" rows="5" placeholder="Your Review..."></textarea>
+                        </div>
+                        <div class="youplay-rating pull-right">
+                            <input type="radio" id="review-rate-5" name="review-rate" value="5">
+                            <label for="review-rate-5">
+                                <i class="fa fa-star"></i>
+                            </label>
+                            <input type="radio" id="review-rate-4" name="review-rate" value="4">
+                            <label for="review-rate-4">
+                                <i class="fa fa-star"></i>
+                            </label>
+                            <input type="radio" id="review-rate-3" name="review-rate" value="3">
+                            <label for="review-rate-3">
+                                <i class="fa fa-star"></i>
+                            </label>
+                            <input type="radio" id="review-rate-2" name="review-rate" value="2">
+                            <label for="review-rate-2">
+                                <i class="fa fa-star"></i>
+                            </label>
+                            <input type="radio" id="review-rate-1" name="review-rate" value="1">
+                            <label for="review-rate-1">
+                                <i class="fa fa-star"></i>
+                            </label>
+                        </div>
+                        <div class="clearfix"></div>
+                        <button class="btn btn-default pull-right">Submit</button>
+                    </div>
+                </form>
+                <!-- /Review Form -->
+            </div>
+            <!-- /Reviews -->
+        </div>
+
+
+
+    </div>
+
+    <!-- Related -->
+    <h2 class="container">Related</h2>
+    <br>
+    <div class="youplay-carousel">
+        <a class="angled-img" href="#!">
+            <div class="img">
+                <img src="~/dark/assets/images/game-kingdoms-of-amalur-reckoning-500x375.jpg" alt="">
+            </div>
+            <div class="over-info">
+                <div>
+                    <div>
+                        <h4>Kingdoms of Amalur: Reckoning</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+        <a class="angled-img" href="#!">
+            <div class="img">
+                <img src="~/dark/assets/images/game-the-witcher-500x375.jpg" alt="">
+            </div>
+            <div class="over-info">
+                <div>
+                    <div>
+                        <h4>The Witcher: Rise of the White Wolf</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+        <a class="angled-img" href="#!">
+            <div class="img">
+                <img src="~/dark/assets/images/game-diablo-iii-500x375.jpg" alt="">
+            </div>
+            <div class="over-info">
+                <div>
+                    <div>
+                        <h4>Diablo III: Reaper of Souls</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+        <a class="angled-img" href="#!">
+            <div class="img">
+                <img src="~/dark/assets/images/game-dragons-dogma-500x375.jpg" alt="">
+            </div>
+            <div class="over-info">
+                <div>
+                    <div>
+                        <h4>Dragons Dogma</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
+    <!-- /Related -->
+    <!-- Footer -->
+    <footer class="youplay-footer-parallax">
+        <div class="wrapper" style="background-image: url('@Url.Content("~/dark/assets/images/footer-bg.jpg')")>
+
+            <!-- Social Buttons -->
+            <div class="social">
+                <div class="container">
+                    <h3>Connect socially with <strong>youplay</strong></h3>
+
+                    <div class="social-icons">
+                        <div class="social-icon">
+                            <a href="#!">
+                                <i class="fa fa-facebook-square"></i>
+                                <span>Like on Facebook</span>
+                            </a>
+                        </div>
+                        <div class="social-icon">
+                            <a href="#!">
+                                <i class="fa fa-twitter-square"></i>
+                                <span>Follow on Twitter</span>
+                            </a>
+                        </div>
+                        <div class="social-icon">
+                            <a href="#!">
+                                <i class="fa fa-twitch"></i>
+                                <span>Watch on Twitch</span>
+                            </a>
+                        </div>
+                        <div class="social-icon">
+                            <a href="#!">
+                                <i class="fa fa-youtube-square"></i>
+                                <span>Watch on Youtube</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /Social Buttons -->
+            <!-- Copyright -->
+            <div class="copyright">
+                <div class="container">
+                    <strong>nK</strong> &copy; 2016. All rights reserved
+                </div>
+            </div>
+            <!-- /Copyright -->
+
+        </div>
+    </footer>
+    <!-- /Footer -->
+
+
+</section>
+<!-- /Main Content -->

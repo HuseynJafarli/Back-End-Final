@@ -30,5 +30,21 @@ namespace YouPlay.MVC.Controllers
 
             return View(vm);
         }
+
+        public async Task<IActionResult> Detail(int id)
+        {
+            var request = new RestRequest($"Games/{id}", Method.Get);
+            var response = await _restClient.ExecuteAsync<ApiResponseMessage<GameGetVM>>(request);
+
+            if (!response.IsSuccessful)
+            {
+                ViewBag.Err = response.ErrorMessage;
+                return View("Error");
+            }
+
+            GameGetVM game = response.Data.Data;
+            return View(game);
+        }
+
     }
 }
