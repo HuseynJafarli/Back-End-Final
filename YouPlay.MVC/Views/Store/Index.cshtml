@@ -40,7 +40,7 @@
             <ol class="carousel-indicators">
                 @{
                     var filteredGames = Model
-                    .Where(g => g.Rating > 8)
+                    .Where(g => g.Rating > (decimal)8.5)
                     .OrderByDescending(g => g.ReleaseDate)
                     .Take(3)
                     .ToList();
@@ -123,7 +123,7 @@
                     string dataFilters = string.Join(",", dataf);
 
 
-                    <a href="#!" class="item angled-bg" data-filters="@dataFilters">
+                    <a asp-controller="Store" asp-action="Detail" asp-route-id="@item.Id" class="item angled-bg" data-filters="@dataFilters">
                         <div class="row">
                             <div class="col-lg-2 col-md-3 col-xs-4">
                                 <div class="angled-img">

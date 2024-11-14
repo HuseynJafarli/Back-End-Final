@@ -34,7 +34,7 @@
                 @foreach (var item in Model)
                 {
                     <div class="owl-item cloned" style="width: 315px; height: 237px">
-                        <a class="angled-img" href="#!">
+                        <a class="angled-img" asp-controller="Store" asp-action="Detail" asp-route-id="@item.Id"> 
                             <div class="img">
                                 <img src="@item.GameImages[0].ImageUrl" alt="">
                             </div>
@@ -321,7 +321,7 @@
                     if (item.Discount > 0)
                     {
                         <div class="owl-item cloned" style="width: 315px;">
-                            <a class="angled-img" href="#!">
+                            <a class="angled-img" asp-controller="Store" asp-action="Detail" asp-route-id="@item.Id">
                                 <div class="img img-offset">
                                     <img src="@item.GameImages[0].ImageUrl" alt="">
                                     <div class="badge bg-default">

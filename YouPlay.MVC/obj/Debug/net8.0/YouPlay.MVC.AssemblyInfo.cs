@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("YouPlay.MVC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fe77d5b4919de8dd44de5ac3ac5122e94faf8050")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+06d583367c9cc092b78b13a02cde1df18d74207d")]
 [assembly: System.Reflection.AssemblyProductAttribute("YouPlay.MVC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("YouPlay.MVC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
