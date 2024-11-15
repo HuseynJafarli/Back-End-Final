@@ -262,87 +262,40 @@
     </div>
 
     <!-- Related -->
-    <h2 class="container">Related</h2>
+@*     <h2 class="container">Related</h2>
     <br>
-    <div class="youplay-carousel">
-        <a class="angled-img" href="#!">
-            <div class="img">
-                <img src="~/dark/assets/images/game-kingdoms-of-amalur-reckoning-500x375.jpg" alt="">
-            </div>
-            <div class="over-info">
-                <div>
-                    <div>
-                        <h4>Kingdoms of Amalur: Reckoning</h4>
-                        <div class="rating">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star-half-o"></i>
-                        </div>
+    <div class="youplay-carousel owl-carousel owl-loaded owl-drag youplay-carousel-1" data-autoplay="5000">
+        <div class="owl-stage-outer">
+            <div class="owl-stage" style="transform: translate3d(-300px, 0px, 0px); transition: 0.25s; width: 6125px; padding-left: 70px; padding-right: 70px;">
+
+                @foreach (var item in Model)
+                {
+                    <div class="owl-item cloned" style="width: 315px; height: 237px">
+                        <a class="angled-img" asp-controller="Store" asp-action="Detail" asp-route-id="@item.Id">
+                            <div class="img">
+                                <img src="@item.GameImages[0].ImageUrl" alt="">
+                            </div>
+                            <div class="over-info">
+                                <div>
+                                    <div>
+                                        <h4>@item.Title</h4>
+                                        <div class="rating">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-half-o"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
                     </div>
-                </div>
+                }
+
             </div>
-        </a>
-        <a class="angled-img" href="#!">
-            <div class="img">
-                <img src="~/dark/assets/images/game-the-witcher-500x375.jpg" alt="">
-            </div>
-            <div class="over-info">
-                <div>
-                    <div>
-                        <h4>The Witcher: Rise of the White Wolf</h4>
-                        <div class="rating">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star-half-o"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-        <a class="angled-img" href="#!">
-            <div class="img">
-                <img src="~/dark/assets/images/game-diablo-iii-500x375.jpg" alt="">
-            </div>
-            <div class="over-info">
-                <div>
-                    <div>
-                        <h4>Diablo III: Reaper of Souls</h4>
-                        <div class="rating">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star-half-o"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-        <a class="angled-img" href="#!">
-            <div class="img">
-                <img src="~/dark/assets/images/game-dragons-dogma-500x375.jpg" alt="">
-            </div>
-            <div class="over-info">
-                <div>
-                    <div>
-                        <h4>Dragons Dogma</h4>
-                        <div class="rating">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star-half-o"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-    </div>
-    <!-- /Related -->
+        </div><div class="owl-nav"><div class="owl-prev"></div><div class="owl-next"></div></div><div class="owl-dots disabled"></div>
+    </div> *@
     <!-- Footer -->
     <footer class="youplay-footer-parallax">
         <div class="wrapper" style="background-image: url('@Url.Content("~/dark/assets/images/footer-bg.jpg')")>

@@ -1,0 +1,95 @@
+﻿@model GameCreateVM
+<style>
+    body {
+        padding-top: 2rem;
+    }
+
+</style>
+<div class="container my-5">
+    <h1 class="mb-4">Create a New Game</h1>
+    <form method="post" enctype="multipart/form-data" class="needs-validation">
+        <div class="row mb-3">
+            <!-- Title -->
+            <div class="col-md-6">
+                <label asp-for="Title" class="form-label fw-bold">Title</label>
+                <input asp-for="Title" class="form-control" placeholder="Enter game title">
+                <span asp-validation-for="Title" class="text-danger"></span>
+            </div>
+            <!-- Genre -->
+            <div class="col-md-6">
+                <label asp-for="Genre" class="form-label fw-bold">Genre</label>
+                <input asp-for="Genre" class="form-control" placeholder="Enter game genre">
+                <span asp-validation-for="Genre" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <!-- Description -->
+            <div class="col-md-12">
+                <label asp-for="Description" class="form-label fw-bold">Description</label>
+                <textarea asp-for="Description" class="form-control" rows="4" placeholder="Write a short description of the game"></textarea>
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <!-- Rating -->
+            <div class="col-md-4">
+                <label asp-for="Rating" class="form-label fw-bold">Rating (0-10)</label>
+                <input asp-for="Rating" type="number" step="0.1" class="form-control" placeholder="e.g., 8.5">
+                <span asp-validation-for="Rating" class="text-danger"></span>
+            </div>
+            <!-- Cost Price -->
+            <div class="col-md-4">
+                <label asp-for="CostPrice" class="form-label fw-bold">Cost Price</label>
+                <input asp-for="CostPrice" type="number" step="0.01" class="form-control" placeholder="e.g., 49.99">
+                <span asp-validation-for="CostPrice" class="text-danger"></span>
+            </div>
+            <!-- Discount -->
+            <div class="col-md-4">
+                <label asp-for="Discount" class="form-label fw-bold">Discount (%)</label>
+                <input asp-for="Discount" type="number" class="form-control" placeholder="e.g., 20">
+                <span asp-validation-for="Discount" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <!-- Developer -->
+            <div class="col-md-6">
+                <label asp-for="Developer" class="form-label fw-bold">Developer</label>
+                <input asp-for="Developer" class="form-control" placeholder="Enter developer name">
+                <span asp-validation-for="Developer" class="text-danger"></span>
+            </div>
+            <!-- Release Date -->
+            <div class="col-md-6">
+                <label asp-for="ReleaseDate" class="form-label fw-bold">Release Date</label>
+                <input asp-for="ReleaseDate" type="date" class="form-control">
+                <span asp-validation-for="ReleaseDate" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <!-- Trailer URL -->
+            <div class="col-md-6">
+                <label asp-for="TrailerUrl" class="form-label fw-bold">Trailer URL</label>
+                <input asp-for="TrailerUrl" type="url" class="form-control" placeholder="e.g., https://youtube.com/your-trailer">
+                <span asp-validation-for="TrailerUrl" class="text-danger"></span>
+            </div>
+            <!-- Game Images -->
+            <div class="col-md-6">
+                <label asp-for="GameImages" class="form-label fw-bold">Game Images</label>
+                <input asp-for="GameImages" type="file" multiple class="form-control">
+                <span asp-validation-for="GameImages" class="text-danger"></span>
+            </div>
+        </div>
+
+        <!-- Validation Summary -->
+        <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+        <!-- Action Buttons -->
+        <div class="d-flex justify-content-between">
+            <button type="submit" class="btn btn-primary">Create</button>
+            <a asp-action="Index" class="btn btn-light">Cancel</a>
+        </div>
+    </form>
+</div>

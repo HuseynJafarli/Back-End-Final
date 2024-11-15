@@ -26,8 +26,16 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\User\Desktop\Final-Project\YouPlay\YouPlay.MVC
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/User/Desktop/Final-Project/YouPlay/YouPlay.MVC/Areas/Admin/Views/Game/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcR2FtZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/User/Desktop/Final-Project/YouPlay/YouPlay.MVC/Areas/Admin/Views/Game/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcR2FtZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/Final-Project/YouPlay/YouPlay.MVC/Areas/Admin/Views/Game/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcR2FtZVxVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/User/Desktop/Final-Project/YouPlay/YouPlay.MVC/Areas/Admin/Views/Home/Index.cshtml]

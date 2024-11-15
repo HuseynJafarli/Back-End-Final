@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "HaOBFNc8zcCeePamUl0G4N8SsQinSrSRgVoGliNyx10=",
+  "Hash": "/S2JNTLzre2KzKqMqWfPTn3uIfF2GNs+06xFVYv3e5o=",
   "Source": "YouPlay.API",
   "BasePath": "_content/YouPlay.API",
   "Mode": "Default",
@@ -16,6 +16,25 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.API\\wwwroot\\Uploads\\00eca917-05eb-4f0f-9739-670e798b7282dying-light-2-fire-pn3eq4r7lba3pvqn.jpg",
+      "SourceId": "YouPlay.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.API\\wwwroot\\",
+      "BasePath": "_content/YouPlay.API",
+      "RelativePath": "Uploads/00eca917-05eb-4f0f-9739-670e798b7282dying-light-2-fire-pn3eq4r7lba3pvqn.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\00eca917-05eb-4f0f-9739-670e798b7282dying-light-2-fire-pn3eq4r7lba3pvqn.jpg"
+    },
     {
       "Identity": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.API\\wwwroot\\Uploads\\034ff601-13bd-4327-a0d9-72e509d0cc1cenefsi.jpg",
       "SourceId": "YouPlay.API",
@@ -74,6 +93,25 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\130fb872-ef51-41c2-a52e-796e7cc1db50uncharted-4-a-thief-s-end-31488-1920x1080.jpg"
     },
     {
+      "Identity": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.API\\wwwroot\\Uploads\\14e21e4b-1540-4a2c-9e9e-1f9ebacda8a6hoibanner.jpg",
+      "SourceId": "YouPlay.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.API\\wwwroot\\",
+      "BasePath": "_content/YouPlay.API",
+      "RelativePath": "Uploads/14e21e4b-1540-4a2c-9e9e-1f9ebacda8a6hoibanner.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\14e21e4b-1540-4a2c-9e9e-1f9ebacda8a6hoibanner.jpg"
+    },
+    {
       "Identity": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.API\\wwwroot\\Uploads\\15dc3e4b-b5a6-49ae-ab15-d5cfeccebd0csims4.jpg",
       "SourceId": "YouPlay.API",
       "SourceType": "Discovered",
@@ -112,6 +150,25 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\16dfcb5f-3313-4ce7-b9a1-ef7d63c0df5egame-kingdoms-of-amalur-reckoning-2-1940x1185.jpg"
     },
     {
+      "Identity": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.API\\wwwroot\\Uploads\\17fe9168-a433-49b1-958b-bd382d1361bfdying3.jpg",
+      "SourceId": "YouPlay.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.API\\wwwroot\\",
+      "BasePath": "_content/YouPlay.API",
+      "RelativePath": "Uploads/17fe9168-a433-49b1-958b-bd382d1361bfdying3.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\17fe9168-a433-49b1-958b-bd382d1361bfdying3.jpg"
+    },
+    {
       "Identity": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.API\\wwwroot\\Uploads\\18e42ffd-f6e0-4d91-9706-76db88b6ad21need-for-speed-unbound.jpg",
       "SourceId": "YouPlay.API",
       "SourceType": "Discovered",
@@ -129,6 +186,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Uploads\\18e42ffd-f6e0-4d91-9706-76db88b6ad21need-for-speed-unbound.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.API\\wwwroot\\Uploads\\1ee0d6a5-90a2-4a11-9a51-ab3aa41735d9ragnarok.jpg",
+      "SourceId": "YouPlay.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.API\\wwwroot\\",
+      "BasePath": "_content/YouPlay.API",
+      "RelativePath": "Uploads/1ee0d6a5-90a2-4a11-9a51-ab3aa41735d9ragnarok.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\1ee0d6a5-90a2-4a11-9a51-ab3aa41735d9ragnarok.jpg"
     },
     {
       "Identity": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.API\\wwwroot\\Uploads\\1f863433-b314-4e28-89f7-5b2b45f42a2fgame-kingdoms-of-amalur-reckoning-1440x900.jpg",
@@ -186,6 +262,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Uploads\\38a2dd8e-2a39-424f-a4e2-b85b94a289e1game-lords-of-the-fallen-500x375.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.API\\wwwroot\\Uploads\\3943f509-684c-44e4-bb2b-c03f8d577577DL2.jpg",
+      "SourceId": "YouPlay.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.API\\wwwroot\\",
+      "BasePath": "_content/YouPlay.API",
+      "RelativePath": "Uploads/3943f509-684c-44e4-bb2b-c03f8d577577DL2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\3943f509-684c-44e4-bb2b-c03f8d577577DL2.jpg"
     },
     {
       "Identity": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.API\\wwwroot\\Uploads\\412a51e1-8af3-40ed-83c6-905c8a2e2299gallery-the-art-of-god-of-war-2018-06-16-2018-hero.jpg",
@@ -264,6 +359,25 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\58fc2048-7ea8-4156-98b8-583d401ebf22Feature-Silent-Hill.jpg"
     },
     {
+      "Identity": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.API\\wwwroot\\Uploads\\5e5f849e-5be6-4907-82bf-0b8ef9a2cebfhoi4.jpg",
+      "SourceId": "YouPlay.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.API\\wwwroot\\",
+      "BasePath": "_content/YouPlay.API",
+      "RelativePath": "Uploads/5e5f849e-5be6-4907-82bf-0b8ef9a2cebfhoi4.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\5e5f849e-5be6-4907-82bf-0b8ef9a2cebfhoi4.jpg"
+    },
+    {
       "Identity": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.API\\wwwroot\\Uploads\\64a3db62-9d68-40c2-9edc-45dd02a6e87cgame-kingdoms-of-amalur-reckoning-2-500x375.jpg",
       "SourceId": "YouPlay.API",
       "SourceType": "Discovered",
@@ -319,6 +433,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Uploads\\7dfc7cb2-5a2a-49bb-96af-ac9cc85a39c1the-last-of-us-part-ii-remastered-blogroll-1705535028411.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.API\\wwwroot\\Uploads\\82a09c4c-c061-4118-82ca-6d11ddc65bdbGow2.jpg",
+      "SourceId": "YouPlay.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.API\\wwwroot\\",
+      "BasePath": "_content/YouPlay.API",
+      "RelativePath": "Uploads/82a09c4c-c061-4118-82ca-6d11ddc65bdbGow2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\82a09c4c-c061-4118-82ca-6d11ddc65bdbGow2.jpg"
     },
     {
       "Identity": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.API\\wwwroot\\Uploads\\84a73d6c-1394-4a59-b496-445dca17f9f5Uncharted_4_cover.jpg",
@@ -737,6 +870,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Uploads\\fefae407-238a-476c-a8c4-fbe6bd1c85c1gow 500px.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.API\\wwwroot\\Uploads\\ff7414ee-d48b-4dba-b484-301bebecbf2dGod-of-War-Ragnarok-Story-Screenshots-05.png",
+      "SourceId": "YouPlay.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.API\\wwwroot\\",
+      "BasePath": "_content/YouPlay.API",
+      "RelativePath": "Uploads/ff7414ee-d48b-4dba-b484-301bebecbf2dGod-of-War-Ragnarok-Story-Screenshots-05.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\ff7414ee-d48b-4dba-b484-301bebecbf2dGod-of-War-Ragnarok-Story-Screenshots-05.png"
     }
   ]
 }

@@ -1,5 +1,21 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\00eca917-05eb-4f0f-9739-670e798b7282dying-light-2-fire-pn3eq4r7lba3pvqn.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>YouPlay.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/YouPlay.API</BasePath>
+      <RelativePath>Uploads/00eca917-05eb-4f0f-9739-670e798b7282dying-light-2-fire-pn3eq4r7lba3pvqn.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\00eca917-05eb-4f0f-9739-670e798b7282dying-light-2-fire-pn3eq4r7lba3pvqn.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\034ff601-13bd-4327-a0d9-72e509d0cc1cenefsi.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>YouPlay.API</SourceId>
@@ -48,6 +64,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\130fb872-ef51-41c2-a52e-796e7cc1db50uncharted-4-a-thief-s-end-31488-1920x1080.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\14e21e4b-1540-4a2c-9e9e-1f9ebacda8a6hoibanner.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>YouPlay.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/YouPlay.API</BasePath>
+      <RelativePath>Uploads/14e21e4b-1540-4a2c-9e9e-1f9ebacda8a6hoibanner.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\14e21e4b-1540-4a2c-9e9e-1f9ebacda8a6hoibanner.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\15dc3e4b-b5a6-49ae-ab15-d5cfeccebd0csims4.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>YouPlay.API</SourceId>
@@ -80,6 +112,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\16dfcb5f-3313-4ce7-b9a1-ef7d63c0df5egame-kingdoms-of-amalur-reckoning-2-1940x1185.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\17fe9168-a433-49b1-958b-bd382d1361bfdying3.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>YouPlay.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/YouPlay.API</BasePath>
+      <RelativePath>Uploads/17fe9168-a433-49b1-958b-bd382d1361bfdying3.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\17fe9168-a433-49b1-958b-bd382d1361bfdying3.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\18e42ffd-f6e0-4d91-9706-76db88b6ad21need-for-speed-unbound.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>YouPlay.API</SourceId>
@@ -95,6 +143,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\18e42ffd-f6e0-4d91-9706-76db88b6ad21need-for-speed-unbound.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\1ee0d6a5-90a2-4a11-9a51-ab3aa41735d9ragnarok.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>YouPlay.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/YouPlay.API</BasePath>
+      <RelativePath>Uploads/1ee0d6a5-90a2-4a11-9a51-ab3aa41735d9ragnarok.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\1ee0d6a5-90a2-4a11-9a51-ab3aa41735d9ragnarok.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\1f863433-b314-4e28-89f7-5b2b45f42a2fgame-kingdoms-of-amalur-reckoning-1440x900.jpg))">
       <SourceType>Package</SourceType>
@@ -143,6 +207,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\38a2dd8e-2a39-424f-a4e2-b85b94a289e1game-lords-of-the-fallen-500x375.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\3943f509-684c-44e4-bb2b-c03f8d577577DL2.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>YouPlay.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/YouPlay.API</BasePath>
+      <RelativePath>Uploads/3943f509-684c-44e4-bb2b-c03f8d577577DL2.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\3943f509-684c-44e4-bb2b-c03f8d577577DL2.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\412a51e1-8af3-40ed-83c6-905c8a2e2299gallery-the-art-of-god-of-war-2018-06-16-2018-hero.jpg))">
       <SourceType>Package</SourceType>
@@ -208,6 +288,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\58fc2048-7ea8-4156-98b8-583d401ebf22Feature-Silent-Hill.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\5e5f849e-5be6-4907-82bf-0b8ef9a2cebfhoi4.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>YouPlay.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/YouPlay.API</BasePath>
+      <RelativePath>Uploads/5e5f849e-5be6-4907-82bf-0b8ef9a2cebfhoi4.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\5e5f849e-5be6-4907-82bf-0b8ef9a2cebfhoi4.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\64a3db62-9d68-40c2-9edc-45dd02a6e87cgame-kingdoms-of-amalur-reckoning-2-500x375.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>YouPlay.API</SourceId>
@@ -255,6 +351,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\7dfc7cb2-5a2a-49bb-96af-ac9cc85a39c1the-last-of-us-part-ii-remastered-blogroll-1705535028411.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\82a09c4c-c061-4118-82ca-6d11ddc65bdbGow2.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>YouPlay.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/YouPlay.API</BasePath>
+      <RelativePath>Uploads/82a09c4c-c061-4118-82ca-6d11ddc65bdbGow2.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\82a09c4c-c061-4118-82ca-6d11ddc65bdbGow2.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\84a73d6c-1394-4a59-b496-445dca17f9f5Uncharted_4_cover.jpg))">
       <SourceType>Package</SourceType>
@@ -607,6 +719,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\fefae407-238a-476c-a8c4-fbe6bd1c85c1gow 500px.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\ff7414ee-d48b-4dba-b484-301bebecbf2dGod-of-War-Ragnarok-Story-Screenshots-05.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>YouPlay.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/YouPlay.API</BasePath>
+      <RelativePath>Uploads/ff7414ee-d48b-4dba-b484-301bebecbf2dGod-of-War-Ragnarok-Story-Screenshots-05.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\ff7414ee-d48b-4dba-b484-301bebecbf2dGod-of-War-Ragnarok-Story-Screenshots-05.png))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>
 </Project>

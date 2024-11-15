@@ -30,7 +30,7 @@ namespace YouPlay.MVC.Controllers
 
             return View(vm);
         }
-
         
+
     }
 }

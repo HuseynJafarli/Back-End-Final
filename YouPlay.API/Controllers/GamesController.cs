@@ -121,7 +121,9 @@ namespace YouPlay.API.Controllers
             GameGetDto res = null;
             try
             {
-                res = await gameService.UpdateAsync(id, dto);
+                var imageFiles = Request.Form.Files;
+
+                res = await gameService.UpdateAsync(id,dto,imageFiles);
             }
             catch (InvalidIdException)
             {

@@ -3,8 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D8402AD5-4F9C-4A09-A673-4DA358574223}|YouPlay.API\\YouPlay.API.csproj|c:\\users\\user\\desktop\\final-project\\youplay\\youplay.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D8402AD5-4F9C-4A09-A673-4DA358574223}|YouPlay.API\\YouPlay.API.csproj|solutionrelative:youplay.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5E31ADF3-7014-442E-A86A-3345D3D5841E}|YouPlay.MVC\\YouPlay.MVC.csproj|c:\\users\\user\\desktop\\final-project\\youplay\\youplay.mvc\\areas\\admin\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E31ADF3-7014-442E-A86A-3345D3D5841E}|YouPlay.MVC\\YouPlay.MVC.csproj|solutionrelative:youplay.mvc\\areas\\admin\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E31ADF3-7014-442E-A86A-3345D3D5841E}|YouPlay.MVC\\YouPlay.MVC.csproj|c:\\users\\user\\desktop\\final-project\\youplay\\youplay.mvc\\areas\\admin\\views\\game\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E31ADF3-7014-442E-A86A-3345D3D5841E}|YouPlay.MVC\\YouPlay.MVC.csproj|solutionrelative:youplay.mvc\\areas\\admin\\views\\game\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E31ADF3-7014-442E-A86A-3345D3D5841E}|YouPlay.MVC\\YouPlay.MVC.csproj|c:\\users\\user\\desktop\\final-project\\youplay\\youplay.mvc\\areas\\admin\\views\\game\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E31ADF3-7014-442E-A86A-3345D3D5841E}|YouPlay.MVC\\YouPlay.MVC.csproj|solutionrelative:youplay.mvc\\areas\\admin\\views\\game\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E31ADF3-7014-442E-A86A-3345D3D5841E}|YouPlay.MVC\\YouPlay.MVC.csproj|c:\\users\\user\\desktop\\final-project\\youplay\\youplay.mvc\\viewmodels\\gamevms\\gamecreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E31ADF3-7014-442E-A86A-3345D3D5841E}|YouPlay.MVC\\YouPlay.MVC.csproj|solutionrelative:youplay.mvc\\viewmodels\\gamevms\\gamecreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E31ADF3-7014-442E-A86A-3345D3D5841E}|YouPlay.MVC\\YouPlay.MVC.csproj|c:\\users\\user\\desktop\\final-project\\youplay\\youplay.mvc\\viewmodels\\gamevms\\gameupdatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E31ADF3-7014-442E-A86A-3345D3D5841E}|YouPlay.MVC\\YouPlay.MVC.csproj|solutionrelative:youplay.mvc\\viewmodels\\gamevms\\gameupdatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE324337-931F-4208-B50F-10A8F33F3E0B}|YouPlay.Business\\YouPlay.Business.csproj|c:\\users\\user\\desktop\\final-project\\youplay\\youplay.business\\dtos\\gamedtos\\gameupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE324337-931F-4208-B50F-10A8F33F3E0B}|YouPlay.Business\\YouPlay.Business.csproj|solutionrelative:youplay.business\\dtos\\gamedtos\\gameupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E31ADF3-7014-442E-A86A-3345D3D5841E}|YouPlay.MVC\\YouPlay.MVC.csproj|c:\\users\\user\\desktop\\final-project\\youplay\\youplay.mvc\\viewmodels\\gamevms\\gamegetvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E31ADF3-7014-442E-A86A-3345D3D5841E}|YouPlay.MVC\\YouPlay.MVC.csproj|solutionrelative:youplay.mvc\\viewmodels\\gamevms\\gamegetvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8402AD5-4F9C-4A09-A673-4DA358574223}|YouPlay.API\\YouPlay.API.csproj|c:\\users\\user\\desktop\\final-project\\youplay\\youplay.api\\controllers\\gamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8402AD5-4F9C-4A09-A673-4DA358574223}|YouPlay.API\\YouPlay.API.csproj|solutionrelative:youplay.api\\controllers\\gamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E31ADF3-7014-442E-A86A-3345D3D5841E}|YouPlay.MVC\\YouPlay.MVC.csproj|c:\\users\\user\\desktop\\final-project\\youplay\\youplay.mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E31ADF3-7014-442E-A86A-3345D3D5841E}|YouPlay.MVC\\YouPlay.MVC.csproj|solutionrelative:youplay.mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E31ADF3-7014-442E-A86A-3345D3D5841E}|YouPlay.MVC\\YouPlay.MVC.csproj|c:\\users\\user\\desktop\\final-project\\youplay\\youplay.mvc\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E31ADF3-7014-442E-A86A-3345D3D5841E}|YouPlay.MVC\\YouPlay.MVC.csproj|solutionrelative:youplay.mvc\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,15 +58,132 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\Areas\\Admin\\Views\\Game\\Create.cshtml",
+              "RelativeDocumentMoniker": "YouPlay.MVC\\Areas\\Admin\\Views\\Game\\Create.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\Areas\\Admin\\Views\\Game\\Create.cshtml",
+              "RelativeToolTip": "YouPlay.MVC\\Areas\\Admin\\Views\\Game\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-15T17:16:08.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.API\\Program.cs",
-              "RelativeDocumentMoniker": "YouPlay.API\\Program.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.API\\Program.cs",
-              "RelativeToolTip": "YouPlay.API\\Program.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAQwDQAAAAtAAAAAAAAAA==",
+              "Title": "GameController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\Areas\\Admin\\Controllers\\GameController.cs",
+              "RelativeDocumentMoniker": "YouPlay.MVC\\Areas\\Admin\\Controllers\\GameController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\Areas\\Admin\\Controllers\\GameController.cs",
+              "RelativeToolTip": "YouPlay.MVC\\Areas\\Admin\\Controllers\\GameController.cs",
+              "ViewState": "AgIAAIYAAAAAAAAAAAAAAJ4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T18:59:51.201Z",
+              "WhenOpened": "2024-11-15T16:18:33.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\Areas\\Admin\\Views\\Game\\Update.cshtml",
+              "RelativeDocumentMoniker": "YouPlay.MVC\\Areas\\Admin\\Views\\Game\\Update.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\Areas\\Admin\\Views\\Game\\Update.cshtml",
+              "RelativeToolTip": "YouPlay.MVC\\Areas\\Admin\\Views\\Game\\Update.cshtml",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAACgAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-15T17:02:23.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GamesController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.API\\Controllers\\GamesController.cs",
+              "RelativeDocumentMoniker": "YouPlay.API\\Controllers\\GamesController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.API\\Controllers\\GamesController.cs",
+              "RelativeToolTip": "YouPlay.API\\Controllers\\GamesController.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAYwD4AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T16:52:41.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "YouPlay.MVC\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "YouPlay.MVC\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T16:50:25.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "YouPlay.MVC\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "YouPlay.MVC\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T16:49:52.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GameGetVM.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\ViewModels\\GameVMs\\GameGetVM.cs",
+              "RelativeDocumentMoniker": "YouPlay.MVC\\ViewModels\\GameVMs\\GameGetVM.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\ViewModels\\GameVMs\\GameGetVM.cs",
+              "RelativeToolTip": "YouPlay.MVC\\ViewModels\\GameVMs\\GameGetVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T16:48:15.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameCreateVM.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\ViewModels\\GameVMs\\GameCreateVM.cs",
+              "RelativeDocumentMoniker": "YouPlay.MVC\\ViewModels\\GameVMs\\GameCreateVM.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\ViewModels\\GameVMs\\GameCreateVM.cs",
+              "RelativeToolTip": "YouPlay.MVC\\ViewModels\\GameVMs\\GameCreateVM.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T16:48:07.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GameUpdateVM.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\ViewModels\\GameVMs\\GameUpdateVM.cs",
+              "RelativeDocumentMoniker": "YouPlay.MVC\\ViewModels\\GameVMs\\GameUpdateVM.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.MVC\\ViewModels\\GameVMs\\GameUpdateVM.cs",
+              "RelativeToolTip": "YouPlay.MVC\\ViewModels\\GameVMs\\GameUpdateVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T16:29:31.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GameUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.Business\\DTOs\\GameDTOs\\GameUpdateDto.cs",
+              "RelativeDocumentMoniker": "YouPlay.Business\\DTOs\\GameDTOs\\GameUpdateDto.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.Business\\DTOs\\GameDTOs\\GameUpdateDto.cs",
+              "RelativeToolTip": "YouPlay.Business\\DTOs\\GameDTOs\\GameUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T16:19:31.159Z",
               "EditorCaption": ""
             }
           ]
