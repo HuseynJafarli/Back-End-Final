@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Http;
 
 namespace YouPlay.Business.DTOs.UserDTOs
 {
-    public record UserRegisterDto(string Fullname, string Username, string Email, string Password, string ConfirmPassword, string? PhoneNumber, IFormFile ProfileImage);
+    public record UserRegisterDto(string Fullname, string Username, string Email, string Password, string ConfirmPassword, IFormFile ProfileImage);
 
     public class UserRegisterDtoValidator : AbstractValidator<UserRegisterDto>
     {

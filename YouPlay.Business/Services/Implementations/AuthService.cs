@@ -75,7 +75,7 @@ namespace YouPlay.Business.Services.Implementations
 
             if (userRegisterDto.ProfileImage != null)
             {
-                appUser.ProfileImageUrl = userRegisterDto.ProfileImage.SaveFile("wwwroot", "Uploads");
+                appUser.ProfileImageUrl = "https://localhost:7283/api/" + userRegisterDto.ProfileImage.SaveFile("wwwroot", "Uploads");
             }
 
             await userManager.CreateAsync(appUser, userRegisterDto.Password);

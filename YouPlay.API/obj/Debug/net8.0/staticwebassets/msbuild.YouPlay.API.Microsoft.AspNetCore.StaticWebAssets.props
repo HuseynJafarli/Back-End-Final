@@ -496,6 +496,38 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\adec97c5-5461-4508-a5d5-90b00ba505dfsilent-hill-2-button-2-1666206547932.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\af6169c5-68e9-4099-b729-7c8b293af62eGod-of-War-Ragnarok-Story-Screenshots-05.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>YouPlay.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/YouPlay.API</BasePath>
+      <RelativePath>Uploads/af6169c5-68e9-4099-b729-7c8b293af62eGod-of-War-Ragnarok-Story-Screenshots-05.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\af6169c5-68e9-4099-b729-7c8b293af62eGod-of-War-Ragnarok-Story-Screenshots-05.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\b5402af7-f876-4548-b888-1f29fcf4b4a2ragnarok.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>YouPlay.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/YouPlay.API</BasePath>
+      <RelativePath>Uploads/b5402af7-f876-4548-b888-1f29fcf4b4a2ragnarok.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\b5402af7-f876-4548-b888-1f29fcf4b4a2ragnarok.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\b634b7c6-6543-442b-9c76-f6acb6828839nfs.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>YouPlay.API</SourceId>
