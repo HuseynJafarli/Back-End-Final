@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "IiWPibcF8ha8FukAFwo9RPrjeBp1xRkeRoSXuZAjVLc=",
+  "Hash": "a/Lnk6LJiboqlKeEj99ZzXAfHx1KBaUv5VvKPf7IexY=",
   "Source": "YouPlay.API",
   "BasePath": "_content/YouPlay.API",
   "Mode": "Default",
@@ -302,6 +302,25 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\412a51e1-8af3-40ed-83c6-905c8a2e2299gallery-the-art-of-god-of-war-2018-06-16-2018-hero.jpg"
     },
     {
+      "Identity": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.API\\wwwroot\\Uploads\\4665491e-3249-49c5-b46a-c0e32a24f227gallery-the-art-of-god-of-war-2018-06-16-2018-hero.jpg",
+      "SourceId": "YouPlay.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.API\\wwwroot\\",
+      "BasePath": "_content/YouPlay.API",
+      "RelativePath": "Uploads/4665491e-3249-49c5-b46a-c0e32a24f227gallery-the-art-of-god-of-war-2018-06-16-2018-hero.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\4665491e-3249-49c5-b46a-c0e32a24f227gallery-the-art-of-god-of-war-2018-06-16-2018-hero.jpg"
+    },
+    {
       "Identity": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.API\\wwwroot\\Uploads\\48858487-079f-404c-a774-d0361e521d0fgame-bloodborne-7-500x375.jpg",
       "SourceId": "YouPlay.API",
       "SourceType": "Discovered",
@@ -528,6 +547,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Uploads\\96527095-0788-4cfd-a5ff-dbd51574ac16uncharted4e.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.API\\wwwroot\\Uploads\\a1cc68f7-4a17-4660-813e-ffa60d4e660bDL2.jpg",
+      "SourceId": "YouPlay.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.API\\wwwroot\\",
+      "BasePath": "_content/YouPlay.API",
+      "RelativePath": "Uploads/a1cc68f7-4a17-4660-813e-ffa60d4e660bDL2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\a1cc68f7-4a17-4660-813e-ffa60d4e660bDL2.jpg"
     },
     {
       "Identity": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.API\\wwwroot\\Uploads\\a2eaa4d3-00c9-41a7-9fed-78acbacc9c84game-kingdoms-of-amalur-reckoning-500x375.jpg",
@@ -889,6 +927,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Uploads\\fa286e6c-0286-4115-8560-4dbc0823fd98red-dead-redemption-2-4k-purple-robe-bbeiovtq5dg5xe32.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.API\\wwwroot\\Uploads\\fd7a0a9f-87d0-45dd-bf78-44f2a454911bgallery-the-art-of-god-of-war-2018-06-16-2018-hero.jpg",
+      "SourceId": "YouPlay.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.API\\wwwroot\\",
+      "BasePath": "_content/YouPlay.API",
+      "RelativePath": "Uploads/fd7a0a9f-87d0-45dd-bf78-44f2a454911bgallery-the-art-of-god-of-war-2018-06-16-2018-hero.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\fd7a0a9f-87d0-45dd-bf78-44f2a454911bgallery-the-art-of-god-of-war-2018-06-16-2018-hero.jpg"
     },
     {
       "Identity": "C:\\Users\\User\\Desktop\\Final-Project\\YouPlay\\YouPlay.API\\wwwroot\\Uploads\\fefae407-238a-476c-a8c4-fbe6bd1c85c1gow 500px.jpg",

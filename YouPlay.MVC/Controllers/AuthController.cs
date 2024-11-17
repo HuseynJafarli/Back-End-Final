@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using RestSharp;
+using YouPlay.MVC.ApiResponseMessages;
 using YouPlay.MVC.ViewModels;
 public class AuthController : Controller
 {
@@ -19,10 +20,10 @@ public class AuthController : Controller
     [HttpPost]
     public async Task<IActionResult> Login(UserLoginVM loginVM)
     {
-        var request = new RestRequest("api/Auth/Login", Method.Post);
+        var request = new RestRequest("Auth/Login", Method.Post);
         request.AddJsonBody(loginVM);
 
-        var response = await _restClient.ExecuteAsync<TokenResponseVM>(request);
+        var response = await _restClient.ExecuteAsync<ApiResponseMessage<TokenResponseVM>>(request);
 
         if (!response.IsSuccessful || response.Data == null)
         {
@@ -30,11 +31,17 @@ public class AuthController : Controller
             return View();
         }
 
-        // Save JWT to session or cookie
-        HttpContext.Session.SetString("AuthToken", response.Data.AccessToken);
+        var tokenExpirationDate = DateTime.UtcNow.AddDays(10);
+        HttpContext.Response.Cookies.Append("AuthToken", response.Data.Data.AccessToken, new CookieOptions
+        {
+            HttpOnly = true,
+            Secure = true,
+            Expires = tokenExpirationDate
+        });
 
         return RedirectToAction("Index", "Home");
     }
+
 
     [HttpGet]
     public IActionResult Register()
@@ -42,27 +49,46 @@ public class AuthController : Controller
         return View();
     }
 
-    //[HttpPost]
-    //public async Task<IActionResult> Register(UserRegisterVM registerDto)
-    //{
-    //    var request = new RestRequest("api/Auth/Register", Method.Post);
-    //    request.AddJsonBody(registerDto);
+    [HttpPost]
+    public async Task<IActionResult> Register(UserRegisterVM model)
+    {
+        if (!ModelState.IsValid)
+            return View(model);
 
-    //    var response = await _restClient.ExecuteAsync(request);
+        var request = new RestRequest("Auth/Register", Method.Post);
 
-    //    if (!response.IsSuccessful)
-    //    {
-    //        ModelState.AddModelError("", "Registration failed. Please try again.");
-    //        return View();
-    //    }
+        request.AddParameter("Fullname", model.Fullname);
+        request.AddParameter("Username", model.Username);
+        request.AddParameter("Email", model.Email);
+        request.AddParameter("Password", model.Password);
+        request.AddParameter("ConfirmPassword", model.ConfirmPassword);
 
-    //    return RedirectToAction("Login");
-    //}
+        if (model.ProfileImage != null)
+        {
+            using var stream = model.ProfileImage.OpenReadStream();
+            var fileBytes = new byte[model.ProfileImage.Length];
+            await stream.ReadAsync(fileBytes, 0, (int)model.ProfileImage.Length);
+            request.AddFile("ProfileImage", fileBytes, model.ProfileImage.FileName, model.ProfileImage.ContentType);
+        }
 
-    //[HttpPost]
-    //public IActionResult Logout()
-    //{
-    //    HttpContext.Session.Remove("AuthToken");
-    //    return RedirectToAction("Login");
-    //}
+        var response = await _restClient.ExecuteAsync<ApiResponseMessage<object>>(request);
+
+        if (response.IsSuccessful && response.Data != null)
+        {
+            return RedirectToAction("Login");
+        }
+        else
+        {
+            ModelState.AddModelError("", response.ErrorMessage ?? "Registration failed. Please try again.");
+            return View(model);
+        }
+    }
+
+
+    [HttpPost]
+    public IActionResult Logout()
+    {
+        HttpContext.Response.Cookies.Delete("AuthToken"); 
+        return RedirectToAction("Login");
+    }
 }

@@ -43,12 +43,20 @@ namespace YouPlay.API.Controllers
         [HttpPost("[action]")]
         public async Task<IActionResult> Login(UserLoginDto dto)
         {
-            TokenResponseDto data = null;
-
             try
             {
-                data = await authService.Login(dto);
+                var data = await authService.Login(dto);
 
+                return Ok(new ApiResponse<TokenResponseDto>
+                {
+                    Data = data,
+                    ErrorMessage = "Logged in successfully!",
+                    StatusCode = StatusCodes.Status200OK
+                });
+            }
+            catch (UnauthorizedAccessException ex)
+            {
+                return Unauthorized(new { message = "Login failed", error = ex.Message });
             }
             catch (NullReferenceException ex)
             {
@@ -56,15 +64,9 @@ namespace YouPlay.API.Controllers
             }
             catch (Exception ex)
             {
-                return BadRequest(new { message = "Login failed", error = ex.Message });
+                return BadRequest(new { message = "An unexpected error occurred", error = ex.Message });
             }
-
-            return Ok(new ApiResponse<TokenResponseDto>
-            {
-                Data = data,
-                ErrorMessage = "Logged in successfully!",
-                StatusCode = StatusCodes.Status200OK
-            });
         }
+
     }
 }

@@ -80,56 +80,55 @@
                             Store 
                         </a>
                     </li>
-                    <li>
-                        <a href="#!">
-                            Blog 
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#!">
-                            Features 
-                        </a>
-                    </li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                     <li class="dropdown dropdown-hover">
                         <a href="#!" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-                            John Doe <span class="badge bg-default">2</span> <span class="caret"></span> <span class="label">it is you</span>
+                            @if (Context.Request.Cookies["AuthToken"] != null)
+                            {
+                                var token = Context.Request.Cookies["AuthToken"];
+                                var handler = new System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler();
+                                var jwtToken = handler.ReadJwtToken(token);
+                                var fullNameClaim = jwtToken.Claims.FirstOrDefault(c => c.Type == System.Security.Claims.ClaimTypes.Name)?.Value;
+
+                                if (string.IsNullOrEmpty(fullNameClaim))
+                                {
+                                    fullNameClaim = "Guest"; 
+                                }
+
+                                <span>@fullNameClaim</span> <span class="badge bg-default">2</span> <span class="caret"></span> <span class="label">it is you</span>
+                            }
+                            else
+                            {
+                                <span>Guest</span> <span class="badge bg-default">0</span> <span class="caret"></span> <span class="label">you are not logged in</span>
+                            }
                         </a>
                         <div class="dropdown-menu">
                             <ul role="menu">
-                                <li>
-                                    <a href="http://html.nkdev.info/youplay/documentation">Documentation</a>
-                                </li>
-                                <li>
-                                    <a href="http://themeforest.net/item/youplay-game-template-based-on-bootstrap/11306207?ref=_nK">Purchase</a>
-                                </li>
-                                <li class="divider"></li>
-
-                                <li>
-                                    <a href="user-profile.html">Profile <span class="badge pull-right bg-warning">13</span></a>
-                                </li>
-                                <li>
-                                    <a href="cart.html">My Cart <span class="badge pull-right bg-default">3</span></a>
-                                </li>
-                                <li class="divider"></li>
-
-                                <li>
-                                    <a href="login.html">Log Out</a>
-                                </li>
-                                <li class="dropdown dropdown-submenu pull-left">
-                                    <a href="#!" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">More..</a>
-                                    <div class="dropdown-menu">
-                                        <ul role="menu">
-                                            <li>
-                                                <a href="#!">3rd level</a>
-                                            </li>
-                                            <li>
-                                                <a href="#!">3rd level</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </li>
+                                @if (Context.Request.Cookies["AuthToken"] != null)
+                                {
+                                    <li>
+                                        <a asp-controller="Home" asp-action="Profile">Profile</a>
+                                    </li>
+                                    <li>
+                                        <a href="cart.html">My Cart <span class="badge pull-right bg-default">3</span></a>
+                                    </li>
+                                    <li class="divider"></li>
+                                    <li>
+                                        <form asp-controller="Auth" asp-action="Logout" method="post" style="display:inline;">
+                                            <button type="submit" class="btn btn-danger" style="padding:0; color:white;">Log Out</button>
+                                        </form>
+                                    </li>
+                                }
+                                else
+                                {
+                                    <li>
+                                        <a asp-controller="Auth" asp-action="Login">Login</a>
+                                    </li>
+                                    <li>
+                                        <a asp-controller="Auth" asp-action="Register">Register</a>
+                                    </li>
+                                }
                             </ul>
                         </div>
                     </li>

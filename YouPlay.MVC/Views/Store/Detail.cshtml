@@ -91,33 +91,66 @@
             </article>
             <!-- /Post Info -->
             <!-- Information -->
+            <!-- System Requirements -->
             <div class="requirements-block">
                 <h2>System Requirements</h2>
-                <div>
-                    <strong>OS:</strong> Windows 7
-                </div>
-                <div>
-                    <strong>Processor:</strong> Dual core from Intel or AMD at 2.8 GHz
-                </div>
-                <div>
-                    <strong>Memory:</strong> 4 GB RAM
-                </div>
-                <div>
-                    <strong>Graphics:</strong> nVidia GeForce 8600/9600GT, ATI/AMD Radeon HD2600/3600
-                </div>
-                <div>
-                    <strong>DirectX:</strong> Version 9.0c
-                </div>
-                <div>
-                    <strong>Network:</strong> Broadband Internet connection
-                </div>
-                <div>
-                    <strong>Hard Drive:</strong> 8 GB available space
-                </div>
-                <div>
-                    <strong>Sound Card:</strong> DirectX Compatible
-                </div>
+
+                @if (Model.ReleaseDate.Year >= 2016)
+                {
+                    <div>
+                        <strong>OS:</strong> Windows 10 or newer
+                    </div>
+                    <div>
+                        <strong>Processor:</strong> Intel Core i5-9600K / AMD Ryzen 5 3600 or better
+                    </div>
+                    <div>
+                        <strong>Memory:</strong> 16 GB RAM
+                    </div>
+                    <div>
+                        <strong>Graphics:</strong> NVIDIA GTX 1660 / AMD RX 590 or better
+                    </div>
+                    <div>
+                        <strong>DirectX:</strong> Version 12
+                    </div>
+                    <div>
+                        <strong>Network:</strong> Broadband Internet connection
+                    </div>
+                    <div>
+                        <strong>Hard Drive:</strong> 50 GB available space
+                    </div>
+                    <div>
+                        <strong>Sound Card:</strong> DirectX Compatible with latest drivers
+                    </div>
+                }
+                else
+                {
+                    <div>
+                        <strong>OS:</strong> Windows 7
+                    </div>
+                    <div>
+                        <strong>Processor:</strong> Dual core from Intel or AMD at 2.8 GHz
+                    </div>
+                    <div>
+                        <strong>Memory:</strong> 4 GB RAM
+                    </div>
+                    <div>
+                        <strong>Graphics:</strong> NVIDIA GeForce 8600/9600GT, ATI/AMD Radeon HD2600/3600
+                    </div>
+                    <div>
+                        <strong>DirectX:</strong> Version 9.0c
+                    </div>
+                    <div>
+                        <strong>Network:</strong> Broadband Internet connection
+                    </div>
+                    <div>
+                        <strong>Hard Drive:</strong> 8 GB available space
+                    </div>
+                    <div>
+                        <strong>Sound Card:</strong> DirectX Compatible
+                    </div>
+                }
             </div>
+
             <!-- /Information -->
             <!-- Reviews -->
             <div class="reviews-block mb-0">

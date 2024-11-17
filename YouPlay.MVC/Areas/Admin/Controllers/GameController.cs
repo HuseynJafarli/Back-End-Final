@@ -1,19 +1,31 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using RestSharp;
 using YouPlay.MVC.ApiResponseMessages;
+using YouPlay.MVC.Services.Implementations;
 using YouPlay.MVC.ViewModels;
 
 namespace YouPlay.MVC.Areas.Admin.Controllers
 {
     [Area("admin")]
+    [ServiceFilter(typeof(TokenFilter))]
     public class GameController : Controller
     {
         private RestClient _restClient;
+        private readonly IHttpContextAccessor _httpContextAccessor;
 
-        public GameController() 
+        public GameController(IHttpContextAccessor httpContextAccessor) 
         {
+            _httpContextAccessor = httpContextAccessor;
             _restClient = new RestClient("https://localhost:7283/api");
+            var token = _httpContextAccessor.HttpContext.Request.Cookies["AuthToken"];
+
+            if (token != null)
+            {
+                _restClient.AddDefaultHeader("Authorization", "Bearer " + token);
+            }
         }
+
         public async Task<IActionResult> Index()
         {
             var request = new RestRequest("Games", Method.Get);
@@ -43,10 +55,8 @@ namespace YouPlay.MVC.Areas.Admin.Controllers
             if (!ModelState.IsValid)
                 return View(model);
 
-            // Initialize the RestRequest
             var request = new RestRequest("Games", Method.Post);
 
-            // Add game properties as form fields
             request.AddParameter("Title", model.Title);
             request.AddParameter("Description", model.Description ?? "");
             request.AddParameter("Rating", model.Rating);
@@ -57,7 +67,6 @@ namespace YouPlay.MVC.Areas.Admin.Controllers
             request.AddParameter("ReleaseDate", model.ReleaseDate.ToString("o"));
             request.AddParameter("TrailerUrl", model.TrailerUrl ?? "");
 
-            // Add files to the request
             foreach (var file in model.GameImages)
             {
                 using var stream = file.OpenReadStream();
@@ -66,10 +75,8 @@ namespace YouPlay.MVC.Areas.Admin.Controllers
                 request.AddFile("GameImages", fileBytes, file.FileName, file.ContentType);
             }
 
-            // Execute the request
             var response = await _restClient.ExecuteAsync<ApiResponseMessage<object>>(request);
 
-            // Check if the request was successful
             if (response.IsSuccessful && response.Data != null)
             {
                 return RedirectToAction("Index");
@@ -117,10 +124,8 @@ namespace YouPlay.MVC.Areas.Admin.Controllers
             if (!ModelState.IsValid)
                 return View(model);
 
-            // Initialize the RestRequest
             var request = new RestRequest($"Games{id}", Method.Put);
 
-            // Add game properties as form fields
             request.AddParameter("Title", model.Title);
             request.AddParameter("Description", model.Description ?? "");
             request.AddParameter("Rating", model.Rating);
@@ -131,7 +136,6 @@ namespace YouPlay.MVC.Areas.Admin.Controllers
             request.AddParameter("ReleaseDate", model.ReleaseDate.ToString("o"));
             request.AddParameter("TrailerUrl", model.TrailerUrl ?? "");
 
-            // Add files to the request
             if (model.GameImages != null)
             {
                 foreach (var file in model.GameImages)
@@ -142,10 +146,8 @@ namespace YouPlay.MVC.Areas.Admin.Controllers
                     request.AddFile("GameImages", fileBytes, file.FileName, file.ContentType);
                 }
             }
-            // Execute the request
             var response = await _restClient.ExecuteAsync<ApiResponseMessage<object>>(request);
 
-            // Check if the request was successful
             if (response.IsSuccessful && response.Data != null)
             {
                 return RedirectToAction("Index");

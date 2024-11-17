@@ -26,13 +26,13 @@ namespace YouPlay.API
             builder.Services.AddValidatorsFromAssemblyContaining<GameGetDto>();
 
 
-            //builder.Services.AddIdentity<AppUser, IdentityRole>(opt =>
-            //{
-            //    opt.User.RequireUniqueEmail = true;
-            //    opt.Password.RequiredUniqueChars = 2;
-            //    opt.Password.RequiredLength = 8;
-            //}).AddEntityFrameworkStores<AppDbContext>();
-
+            builder.Services.AddCors(opt =>
+            {
+                opt.AddPolicy("AllowSpecific", policy =>
+                {
+                    policy.WithOrigins("https://localhost:7056").AllowAnyHeader().AllowAnyMethod().AllowCredentials();
+                });
+            });
             builder.Services.AddAuthentication(opt =>
             {
                 opt.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;

@@ -1,3 +1,6 @@
+using Microsoft.Extensions.DependencyInjection.Extensions;
+using YouPlay.MVC.Services.Implementations;
+
 namespace YouPlay.MVC
 {
     public class Program
@@ -6,8 +9,10 @@ namespace YouPlay.MVC
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            // Add services to the container.
+            builder.Services.AddScoped<TokenFilter>();
             builder.Services.AddControllersWithViews();
+            builder.Services.AddHttpContextAccessor();
+            builder.Services.TryAddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
             var app = builder.Build();
 
@@ -24,6 +29,7 @@ namespace YouPlay.MVC
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.MapControllerRoute(

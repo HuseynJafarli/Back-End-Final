@@ -49,11 +49,6 @@
         "IsRequired": false
       },
       {
-        "Name": "PhoneNumber",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
         "Name": "ProfileImage",
         "Type": "Microsoft.AspNetCore.Http.IFormFile",
         "IsRequired": false

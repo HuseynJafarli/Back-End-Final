@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using YouPlay.API.ApiResponses;
@@ -87,6 +88,8 @@ namespace YouPlay.API.Controllers
                 ErrorMessage = null
             });
         }
+
+        [Authorize]
         [HttpPost]
         public async Task<IActionResult> Create([FromForm] GameCreateDto dto)
         {
@@ -114,7 +117,7 @@ namespace YouPlay.API.Controllers
             });
         }
 
-
+        [Authorize]
         [HttpPut("{id}")]
         public async Task<IActionResult> Update([FromForm] GameUpdateDto dto, int id)
         {
@@ -162,6 +165,7 @@ namespace YouPlay.API.Controllers
 
         }
 
+        [Authorize]
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {

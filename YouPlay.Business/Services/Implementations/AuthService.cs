@@ -17,32 +17,41 @@ namespace YouPlay.Business.Services.Implementations
         private readonly UserManager<AppUser> userManager;
         private readonly SignInManager<AppUser> signInManager;
         private readonly IConfiguration configuration;
+        private readonly RoleManager<IdentityRole> roleManager;
 
-        public AuthService(UserManager<AppUser> userManager, SignInManager<AppUser> signInManager, IConfiguration configuration)
+        public AuthService(UserManager<AppUser> userManager, SignInManager<AppUser> signInManager, IConfiguration configuration, RoleManager<IdentityRole> roleManager)
         {
             this.userManager = userManager;
             this.signInManager = signInManager;
             this.configuration = configuration;
+            this.roleManager = roleManager;
         }
         public async Task<TokenResponseDto> Login(UserLoginDto userLoginDto)
         {
-            AppUser user = null;
-            user = await userManager.FindByNameAsync(userLoginDto.Username);
+            AppUser user = await userManager.FindByNameAsync(userLoginDto.Username);
             if (user == null)
             {
                 throw new NullReferenceException("Invalid Credentials");
             }
 
-            var result = await signInManager.CheckPasswordSignInAsync(user, userLoginDto.Password, userLoginDto.RememberMe);
+            var result = await signInManager.CheckPasswordSignInAsync(user, userLoginDto.Password, false);
+            if (!result.Succeeded)
+            {
+                throw new UnauthorizedAccessException("Invalid Credentials");
+            }
+
             var roles = await userManager.GetRolesAsync(user);
 
-            List<Claim> claims =
-            [
+            List<Claim> claims = new()
+            {
                 new Claim(ClaimTypes.NameIdentifier, user.Id),
                 new Claim(ClaimTypes.Name, user.UserName),
                 new Claim("Fullname", user.FullName),
-                .. roles.Select(role=>new Claim(ClaimTypes.Role, role))
-            ];
+                new Claim(ClaimTypes.Email, user.Email),
+                new Claim("ProfileImageUrl" , user.ProfileImageUrl),
+            };
+
+            claims.AddRange(roles.Select(role => new Claim(ClaimTypes.Role, role)));
 
             string secretKey = configuration.GetSection("JWT:secretkey").Value;
             DateTime expires = DateTime.UtcNow.AddDays(10);
@@ -57,7 +66,7 @@ namespace YouPlay.Business.Services.Implementations
                 issuer: configuration.GetSection("JWT:issuer").Value,
                 expires: expires,
                 notBefore: DateTime.UtcNow
-                );
+            );
 
             string token = new JwtSecurityTokenHandler().WriteToken(jwtSecurityToken);
 
@@ -78,7 +87,19 @@ namespace YouPlay.Business.Services.Implementations
                 appUser.ProfileImageUrl = "https://localhost:7283/api/" + userRegisterDto.ProfileImage.SaveFile("wwwroot", "Uploads");
             }
 
-            await userManager.CreateAsync(appUser, userRegisterDto.Password);
+            var result = await userManager.CreateAsync(appUser, userRegisterDto.Password);
+
+            if (!result.Succeeded)
+            {
+                var errors = string.Join(", ", result.Errors.Select(e => e.Description));
+                throw new Exception($"User registration failed: {errors}");
+            }
+
+            if (!await roleManager.RoleExistsAsync("Member"))
+            {
+                await roleManager.CreateAsync(new IdentityRole("Member"));
+            }
+
             await userManager.AddToRoleAsync(appUser, "Member");
         }
     }
