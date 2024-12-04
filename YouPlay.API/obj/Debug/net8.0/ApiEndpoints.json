@@ -147,7 +147,7 @@
     "ContainingType": "YouPlay.API.Controllers.GamesController",
     "Method": "Update",
     "RelativePath": "api/Games/{id}",
-    "HttpMethod": "PUT",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [

@@ -25,7 +25,10 @@ namespace YouPlay.Business.Utilities
         {
             if (string.IsNullOrEmpty(fileName)) return;
 
-            string path = Path.Combine(root, folderName, fileName);
+            string fileNameToDelete = Path.GetFileName(fileName);
+
+            string path = Path.Combine(root, folderName, fileNameToDelete);
+            Console.WriteLine(path);
 
             if (File.Exists(path))
             {

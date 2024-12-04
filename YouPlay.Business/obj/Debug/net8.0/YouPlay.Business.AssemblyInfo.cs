@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("YouPlay.Business")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3e5293c99213e3b6df71cf5ef358b6a403d6a2aa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2ed37838391b5df529fac4a63b14dcd23b07e4dc")]
 [assembly: System.Reflection.AssemblyProductAttribute("YouPlay.Business")]
 [assembly: System.Reflection.AssemblyTitleAttribute("YouPlay.Business")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

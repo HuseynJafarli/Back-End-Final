@@ -89,7 +89,6 @@ namespace YouPlay.API.Controllers
             });
         }
 
-        [Authorize]
         [HttpPost]
         public async Task<IActionResult> Create([FromForm] GameCreateDto dto)
         {
@@ -117,8 +116,7 @@ namespace YouPlay.API.Controllers
             });
         }
 
-        [Authorize]
-        [HttpPut("{id}")]
+        [HttpPost("{id}")]
         public async Task<IActionResult> Update([FromForm] GameUpdateDto dto, int id)
         {
             GameGetDto res = null;
@@ -133,7 +131,7 @@ namespace YouPlay.API.Controllers
                 return BadRequest(new ApiResponse<GameUpdateDto>
                 {
                     StatusCode = StatusCodes.Status400BadRequest,
-                    ErrorMessage = "Id yanlisdir",
+                    ErrorMessage = "Id is invalid!",
                     Data = null
                 });
             }
@@ -165,7 +163,6 @@ namespace YouPlay.API.Controllers
 
         }
 
-        [Authorize]
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {

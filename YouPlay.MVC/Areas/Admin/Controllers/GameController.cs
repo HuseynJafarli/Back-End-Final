@@ -118,13 +118,13 @@ namespace YouPlay.MVC.Areas.Admin.Controllers
             return View(updateVM);
         }
 
-        [HttpPut]
+        [HttpPost]
         public async Task<IActionResult> Update(int id, GameUpdateVM model)
         {
             if (!ModelState.IsValid)
                 return View(model);
 
-            var request = new RestRequest($"Games{id}", Method.Put);
+            var request = new RestRequest($"Games/{id}", Method.Post);
 
             request.AddParameter("Title", model.Title);
             request.AddParameter("Description", model.Description ?? "");
@@ -146,6 +146,7 @@ namespace YouPlay.MVC.Areas.Admin.Controllers
                     request.AddFile("GameImages", fileBytes, file.FileName, file.ContentType);
                 }
             }
+
             var response = await _restClient.ExecuteAsync<ApiResponseMessage<object>>(request);
 
             if (response.IsSuccessful && response.Data != null)
@@ -158,5 +159,23 @@ namespace YouPlay.MVC.Areas.Admin.Controllers
                 return View(model);
             }
         }
+
+        public async Task<IActionResult> Delete(int id)
+        {
+            var request = new RestRequest($"Games/{id}", Method.Delete);
+
+            var response = await _restClient.ExecuteAsync<ApiResponseMessage<object>>(request);
+
+            if (response.IsSuccessful)
+            {
+                return RedirectToAction("Index");
+            }
+            else
+            {
+                ModelState.AddModelError("", response.ErrorMessage ?? "Failed to delete game.");
+                return View();
+            }
+        }
+
     }
 }

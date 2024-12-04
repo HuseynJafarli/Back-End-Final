@@ -81,7 +81,8 @@ namespace YouPlay.API
 
             app.UseStaticFiles();
             app.UseHttpsRedirection();
-
+            app.UseRouting();
+            app.UseAuthentication();
             app.UseAuthorization();
            
 

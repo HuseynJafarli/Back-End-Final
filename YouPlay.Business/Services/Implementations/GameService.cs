@@ -233,7 +233,7 @@ namespace YouPlay.Business.Services.Implementations
             if (id < 1) throw new InvalidIdException("Id is not valid");
 
             // Retrieve the game with its images from the repository
-            var game = await gameRepository.GetByExpression(true, g => g.Id == id, "GameImages").FirstOrDefaultAsync();
+            var game = await gameRepository.GetByExpression(false, g => g.Id == id, "GameImages").FirstOrDefaultAsync();
             if (game == null) throw new EntityNotFoundException("Game not found!");
 
             // Update basic properties

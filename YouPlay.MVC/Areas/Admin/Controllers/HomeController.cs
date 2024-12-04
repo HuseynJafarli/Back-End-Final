@@ -12,7 +12,5 @@ namespace YouPlay.MVC.Areas.Admin.Controllers
         {
             return View();
         }
-
-
     }
 }
